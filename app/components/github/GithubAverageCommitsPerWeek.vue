@@ -8,7 +8,7 @@
             Average Commits Per Week
             <!-- 今年每周平均提交次数「Average Commits Per Week」周日,一,二,三,四,五,六 -->
         </SiteCardHeader>
-        <CardContent>
+        <CardContent class="flex items-center h-full">
             <ClientOnly>
                 <ChartContainer
                     :config="chartConfig"

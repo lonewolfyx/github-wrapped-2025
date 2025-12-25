@@ -8,7 +8,7 @@
             Contributions by Month
             <!-- 今年的贡献图表，树状图，按照月份 -->
         </SiteCardHeader>
-        <CardContent>
+        <CardContent class="flex items-center h-full">
             <ClientOnly>
                 <ChartContainer
                     :config="chartConfig"
