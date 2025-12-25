@@ -12,7 +12,7 @@
             <ClientOnly>
                 <ChartContainer
                     :config="chartConfig"
-                    class="h-32"
+                    class="h-28"
                 >
                     <VisXYContainer
                         :data="chartData"
