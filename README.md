@@ -1,75 +1,18 @@
-# Nuxt Minimal Starter
+# GitHub Wrapped 2025
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A beautiful GitHub annual statistics dashboard that presents your 2025 coding journey in an intuitive way.
 
-## Setup
+### Key Features
 
-Make sure to install dependencies:
+- 📊 **Commit Statistics** - Total commits, average weekly commits, most active month, etc.
+- ⭐ **Project Data** - Stars received, Pull Requests, Issues, etc.
+- 🔥 **Contribution Streaks** - Longest contribution streak, longest gap, etc.
+- 📈 **Language Analysis** - Most used programming languages ranking
+- 📅 **Contribution Charts** - Monthly and detailed contribution heatmaps
+- 💻 **Repository Rankings** - Most active repositories display
 
-```bash
-# npm
-npm install
+![GitHub Wrapped 2025](https://via.placeholder.com/1200x800/1a1a1a/ffffff?text=GitHub+Wrapped+2025+Dashboard)
 
-# pnpm
-pnpm install
+## License
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+MIT License - See the [LICENSE](LICENSE) file for details.
