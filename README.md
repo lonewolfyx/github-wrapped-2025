@@ -11,7 +11,7 @@ A beautiful GitHub annual statistics dashboard that presents your 2025 coding jo
 - 📅 **Contribution Charts** - Monthly and detailed contribution heatmaps
 - 💻 **Repository Rankings** - Most active repositories display
 
-![GitHub Wrapped 2025](https://via.placeholder.com/1200x800/1a1a1a/ffffff?text=GitHub+Wrapped+2025+Dashboard)
+![GitHub Wrapped 2025](./background.png)
 
 ## License
 
