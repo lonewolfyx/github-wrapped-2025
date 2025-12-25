@@ -6,9 +6,24 @@
                 class="size-10 rounded-full drop-shadow drop-shadow-white"
                 src="https://github.com/lonewolfyx.png"
             >
-            <div class="flex flex-col gap-1 text-xs">
-                <span class="text-white">OldDriver(lonewolfyx)</span>
-                <span class="text-neutral-400">OldDriver(lonewolfyx)</span>
+            <div class="flex flex-col gap-2 text-xs">
+                <span class="text-xl text-white">OldDriver<span class="text-sm">(lonewolfyx)</span></span>
+                <div class="flex justify-start items-center gap-3 text-neutral-400">
+                    <div class="flex items-center gap-1">
+                        <Icon
+                            mode="svg"
+                            name="mage:users"
+                        />
+                        <span>36 followers</span>
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <Icon
+                            mode="svg"
+                            name="tabler:user-star"
+                        />
+                        <span>36 following</span>
+                    </div>
+                </div>
             </div>
         </div>
         <Button
