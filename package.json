@@ -2,6 +2,18 @@
     "name": "github-wrapped-2025",
     "type": "module",
     "private": true,
+    "packageManager": "pnpm@10.15.1",
+    "description": "A beautiful and interactive GitHub Wrapped 2025 dashboard that visualizes your annual coding statistics, including commits, contributions, languages, repositories, and activity patterns.",
+    "author": "OldDriver(lonewolfyx) <https://github.com/lonewolfyx>",
+    "license": "MIT",
+    "homepage": "https://github.com/lonewolfyx/github-wrapped-2025#readme",
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/github-wrapped-2025/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:lonewolfyx/github-wrapped-2025.git"
+    },
     "scripts": {
         "build": "nuxt build",
         "dev": "nuxt dev",
