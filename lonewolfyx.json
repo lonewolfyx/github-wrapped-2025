@@ -1,0 +1,2060 @@
+{
+    "longestCommitStreak": 359,
+    "longestNoContributionStreak": null,
+    "weekendContributionStats": {
+        "contributedDays": 102,
+        "noContributionDays": 0,
+        "contributedDates": [
+            "2025-01-04",
+            "2025-01-05",
+            "2025-01-11",
+            "2025-01-12",
+            "2025-01-18",
+            "2025-01-19",
+            "2025-01-25",
+            "2025-01-26",
+            "2025-02-01",
+            "2025-02-02",
+            "2025-02-08",
+            "2025-02-09",
+            "2025-02-15",
+            "2025-02-16",
+            "2025-02-22",
+            "2025-02-23",
+            "2025-03-01",
+            "2025-03-02",
+            "2025-03-08",
+            "2025-03-09",
+            "2025-03-15",
+            "2025-03-16",
+            "2025-03-22",
+            "2025-03-23",
+            "2025-03-29",
+            "2025-03-30",
+            "2025-04-05",
+            "2025-04-06",
+            "2025-04-12",
+            "2025-04-13",
+            "2025-04-19",
+            "2025-04-20",
+            "2025-04-26",
+            "2025-04-27",
+            "2025-05-03",
+            "2025-05-04",
+            "2025-05-10",
+            "2025-05-11",
+            "2025-05-17",
+            "2025-05-18",
+            "2025-05-24",
+            "2025-05-25",
+            "2025-05-31",
+            "2025-06-01",
+            "2025-06-07",
+            "2025-06-08",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-21",
+            "2025-06-22",
+            "2025-06-28",
+            "2025-06-29",
+            "2025-07-05",
+            "2025-07-06",
+            "2025-07-12",
+            "2025-07-13",
+            "2025-07-19",
+            "2025-07-20",
+            "2025-07-26",
+            "2025-07-27",
+            "2025-08-02",
+            "2025-08-03",
+            "2025-08-09",
+            "2025-08-10",
+            "2025-08-16",
+            "2025-08-17",
+            "2025-08-23",
+            "2025-08-24",
+            "2025-08-30",
+            "2025-08-31",
+            "2025-09-06",
+            "2025-09-07",
+            "2025-09-13",
+            "2025-09-14",
+            "2025-09-20",
+            "2025-09-21",
+            "2025-09-27",
+            "2025-09-28",
+            "2025-10-04",
+            "2025-10-05",
+            "2025-10-11",
+            "2025-10-12",
+            "2025-10-18",
+            "2025-10-19",
+            "2025-10-25",
+            "2025-10-26",
+            "2025-11-01",
+            "2025-11-02",
+            "2025-11-08",
+            "2025-11-09",
+            "2025-11-15",
+            "2025-11-16",
+            "2025-11-22",
+            "2025-11-23",
+            "2025-11-29",
+            "2025-11-30",
+            "2025-12-06",
+            "2025-12-07",
+            "2025-12-13",
+            "2025-12-14",
+            "2025-12-20",
+            "2025-12-21"
+        ],
+        "noContributionDates": []
+    },
+    "mostActiveStats": {
+        "mostActiveMonth": {
+            "month": "2025-10",
+            "totalContributions": 1744
+        },
+        "mostActiveDay": {
+            "date": "2025-09-05",
+            "contributions": 82
+        },
+        "monthlyStats": [
+            {
+                "month": "2025-10",
+                "totalContributions": 1744
+            },
+            {
+                "month": "2025-09",
+                "totalContributions": 1733
+            },
+            {
+                "month": "2025-11",
+                "totalContributions": 1641
+            },
+            {
+                "month": "2025-08",
+                "totalContributions": 1625
+            },
+            {
+                "month": "2025-05",
+                "totalContributions": 1596
+            },
+            {
+                "month": "2025-04",
+                "totalContributions": 1583
+            },
+            {
+                "month": "2025-07",
+                "totalContributions": 1574
+            },
+            {
+                "month": "2025-03",
+                "totalContributions": 1528
+            },
+            {
+                "month": "2025-12",
+                "totalContributions": 1506
+            },
+            {
+                "month": "2025-06",
+                "totalContributions": 1505
+            },
+            {
+                "month": "2025-01",
+                "totalContributions": 824
+            },
+            {
+                "month": "2025-02",
+                "totalContributions": 677
+            }
+        ]
+    },
+    "monthlyAverageContribution": {
+        "monthlyStats": [
+            {
+                "month": "2025-01",
+                "totalContributions": 824
+            },
+            {
+                "month": "2025-02",
+                "totalContributions": 677
+            },
+            {
+                "month": "2025-03",
+                "totalContributions": 1528
+            },
+            {
+                "month": "2025-04",
+                "totalContributions": 1583
+            },
+            {
+                "month": "2025-05",
+                "totalContributions": 1596
+            },
+            {
+                "month": "2025-06",
+                "totalContributions": 1505
+            },
+            {
+                "month": "2025-07",
+                "totalContributions": 1574
+            },
+            {
+                "month": "2025-08",
+                "totalContributions": 1625
+            },
+            {
+                "month": "2025-09",
+                "totalContributions": 1733
+            },
+            {
+                "month": "2025-10",
+                "totalContributions": 1744
+            },
+            {
+                "month": "2025-11",
+                "totalContributions": 1641
+            },
+            {
+                "month": "2025-12",
+                "totalContributions": 1506
+            }
+        ],
+        "averagePerMonth": 1461.3333333333333
+    },
+    "weeklyAverageContribution": [
+        {
+            "day": "Sunday",
+            "totalContributions": 2367,
+            "averagePerWeek": 46
+        },
+        {
+            "day": "Monday",
+            "totalContributions": 2491,
+            "averagePerWeek": 49
+        },
+        {
+            "day": "Tuesday",
+            "totalContributions": 2502,
+            "averagePerWeek": 49
+        },
+        {
+            "day": "Wednesday",
+            "totalContributions": 2621,
+            "averagePerWeek": 50
+        },
+        {
+            "day": "Thursday",
+            "totalContributions": 2580,
+            "averagePerWeek": 50
+        },
+        {
+            "day": "Friday",
+            "totalContributions": 2548,
+            "averagePerWeek": 50
+        },
+        {
+            "day": "Saturday",
+            "totalContributions": 2427,
+            "averagePerWeek": 48
+        }
+    ],
+    "days": [
+        {
+            "date": "2025-01-01",
+            "contributionCount": 23,
+            "weekday": 3
+        },
+        {
+            "date": "2025-01-02",
+            "contributionCount": 23,
+            "weekday": 4
+        },
+        {
+            "date": "2025-01-03",
+            "contributionCount": 23,
+            "weekday": 5
+        },
+        {
+            "date": "2025-01-04",
+            "contributionCount": 23,
+            "weekday": 6
+        },
+        {
+            "date": "2025-01-05",
+            "contributionCount": 23,
+            "weekday": 0
+        },
+        {
+            "date": "2025-01-06",
+            "contributionCount": 25,
+            "weekday": 1
+        },
+        {
+            "date": "2025-01-07",
+            "contributionCount": 24,
+            "weekday": 2
+        },
+        {
+            "date": "2025-01-08",
+            "contributionCount": 23,
+            "weekday": 3
+        },
+        {
+            "date": "2025-01-09",
+            "contributionCount": 26,
+            "weekday": 4
+        },
+        {
+            "date": "2025-01-10",
+            "contributionCount": 25,
+            "weekday": 5
+        },
+        {
+            "date": "2025-01-11",
+            "contributionCount": 27,
+            "weekday": 6
+        },
+        {
+            "date": "2025-01-12",
+            "contributionCount": 30,
+            "weekday": 0
+        },
+        {
+            "date": "2025-01-13",
+            "contributionCount": 26,
+            "weekday": 1
+        },
+        {
+            "date": "2025-01-14",
+            "contributionCount": 31,
+            "weekday": 2
+        },
+        {
+            "date": "2025-01-15",
+            "contributionCount": 48,
+            "weekday": 3
+        },
+        {
+            "date": "2025-01-16",
+            "contributionCount": 44,
+            "weekday": 4
+        },
+        {
+            "date": "2025-01-17",
+            "contributionCount": 25,
+            "weekday": 5
+        },
+        {
+            "date": "2025-01-18",
+            "contributionCount": 34,
+            "weekday": 6
+        },
+        {
+            "date": "2025-01-19",
+            "contributionCount": 24,
+            "weekday": 0
+        },
+        {
+            "date": "2025-01-20",
+            "contributionCount": 39,
+            "weekday": 1
+        },
+        {
+            "date": "2025-01-21",
+            "contributionCount": 28,
+            "weekday": 2
+        },
+        {
+            "date": "2025-01-22",
+            "contributionCount": 23,
+            "weekday": 3
+        },
+        {
+            "date": "2025-01-23",
+            "contributionCount": 23,
+            "weekday": 4
+        },
+        {
+            "date": "2025-01-24",
+            "contributionCount": 23,
+            "weekday": 5
+        },
+        {
+            "date": "2025-01-25",
+            "contributionCount": 23,
+            "weekday": 6
+        },
+        {
+            "date": "2025-01-26",
+            "contributionCount": 23,
+            "weekday": 0
+        },
+        {
+            "date": "2025-01-27",
+            "contributionCount": 23,
+            "weekday": 1
+        },
+        {
+            "date": "2025-01-28",
+            "contributionCount": 23,
+            "weekday": 2
+        },
+        {
+            "date": "2025-01-29",
+            "contributionCount": 23,
+            "weekday": 3
+        },
+        {
+            "date": "2025-01-30",
+            "contributionCount": 23,
+            "weekday": 4
+        },
+        {
+            "date": "2025-01-31",
+            "contributionCount": 23,
+            "weekday": 5
+        },
+        {
+            "date": "2025-02-01",
+            "contributionCount": 23,
+            "weekday": 6
+        },
+        {
+            "date": "2025-02-02",
+            "contributionCount": 23,
+            "weekday": 0
+        },
+        {
+            "date": "2025-02-03",
+            "contributionCount": 23,
+            "weekday": 1
+        },
+        {
+            "date": "2025-02-04",
+            "contributionCount": 23,
+            "weekday": 2
+        },
+        {
+            "date": "2025-02-05",
+            "contributionCount": 23,
+            "weekday": 3
+        },
+        {
+            "date": "2025-02-06",
+            "contributionCount": 24,
+            "weekday": 4
+        },
+        {
+            "date": "2025-02-07",
+            "contributionCount": 23,
+            "weekday": 5
+        },
+        {
+            "date": "2025-02-08",
+            "contributionCount": 24,
+            "weekday": 6
+        },
+        {
+            "date": "2025-02-09",
+            "contributionCount": 23,
+            "weekday": 0
+        },
+        {
+            "date": "2025-02-10",
+            "contributionCount": 23,
+            "weekday": 1
+        },
+        {
+            "date": "2025-02-11",
+            "contributionCount": 26,
+            "weekday": 2
+        },
+        {
+            "date": "2025-02-12",
+            "contributionCount": 23,
+            "weekday": 3
+        },
+        {
+            "date": "2025-02-13",
+            "contributionCount": 23,
+            "weekday": 4
+        },
+        {
+            "date": "2025-02-14",
+            "contributionCount": 24,
+            "weekday": 5
+        },
+        {
+            "date": "2025-02-15",
+            "contributionCount": 23,
+            "weekday": 6
+        },
+        {
+            "date": "2025-02-16",
+            "contributionCount": 23,
+            "weekday": 0
+        },
+        {
+            "date": "2025-02-17",
+            "contributionCount": 24,
+            "weekday": 1
+        },
+        {
+            "date": "2025-02-18",
+            "contributionCount": 23,
+            "weekday": 2
+        },
+        {
+            "date": "2025-02-19",
+            "contributionCount": 23,
+            "weekday": 3
+        },
+        {
+            "date": "2025-02-20",
+            "contributionCount": 25,
+            "weekday": 4
+        },
+        {
+            "date": "2025-02-21",
+            "contributionCount": 26,
+            "weekday": 5
+        },
+        {
+            "date": "2025-02-22",
+            "contributionCount": 24,
+            "weekday": 6
+        },
+        {
+            "date": "2025-02-23",
+            "contributionCount": 23,
+            "weekday": 0
+        },
+        {
+            "date": "2025-02-24",
+            "contributionCount": 23,
+            "weekday": 1
+        },
+        {
+            "date": "2025-02-25",
+            "contributionCount": 25,
+            "weekday": 2
+        },
+        {
+            "date": "2025-02-26",
+            "contributionCount": 25,
+            "weekday": 3
+        },
+        {
+            "date": "2025-02-27",
+            "contributionCount": 29,
+            "weekday": 4
+        },
+        {
+            "date": "2025-02-28",
+            "contributionCount": 33,
+            "weekday": 5
+        },
+        {
+            "date": "2025-03-01",
+            "contributionCount": 24,
+            "weekday": 6
+        },
+        {
+            "date": "2025-03-02",
+            "contributionCount": 23,
+            "weekday": 0
+        },
+        {
+            "date": "2025-03-03",
+            "contributionCount": 48,
+            "weekday": 1
+        },
+        {
+            "date": "2025-03-04",
+            "contributionCount": 53,
+            "weekday": 2
+        },
+        {
+            "date": "2025-03-05",
+            "contributionCount": 54,
+            "weekday": 3
+        },
+        {
+            "date": "2025-03-06",
+            "contributionCount": 52,
+            "weekday": 4
+        },
+        {
+            "date": "2025-03-07",
+            "contributionCount": 63,
+            "weekday": 5
+        },
+        {
+            "date": "2025-03-08",
+            "contributionCount": 47,
+            "weekday": 6
+        },
+        {
+            "date": "2025-03-09",
+            "contributionCount": 47,
+            "weekday": 0
+        },
+        {
+            "date": "2025-03-10",
+            "contributionCount": 62,
+            "weekday": 1
+        },
+        {
+            "date": "2025-03-11",
+            "contributionCount": 50,
+            "weekday": 2
+        },
+        {
+            "date": "2025-03-12",
+            "contributionCount": 56,
+            "weekday": 3
+        },
+        {
+            "date": "2025-03-13",
+            "contributionCount": 48,
+            "weekday": 4
+        },
+        {
+            "date": "2025-03-14",
+            "contributionCount": 48,
+            "weekday": 5
+        },
+        {
+            "date": "2025-03-15",
+            "contributionCount": 47,
+            "weekday": 6
+        },
+        {
+            "date": "2025-03-16",
+            "contributionCount": 47,
+            "weekday": 0
+        },
+        {
+            "date": "2025-03-17",
+            "contributionCount": 48,
+            "weekday": 1
+        },
+        {
+            "date": "2025-03-18",
+            "contributionCount": 53,
+            "weekday": 2
+        },
+        {
+            "date": "2025-03-19",
+            "contributionCount": 69,
+            "weekday": 3
+        },
+        {
+            "date": "2025-03-20",
+            "contributionCount": 55,
+            "weekday": 4
+        },
+        {
+            "date": "2025-03-21",
+            "contributionCount": 48,
+            "weekday": 5
+        },
+        {
+            "date": "2025-03-22",
+            "contributionCount": 46,
+            "weekday": 6
+        },
+        {
+            "date": "2025-03-23",
+            "contributionCount": 46,
+            "weekday": 0
+        },
+        {
+            "date": "2025-03-24",
+            "contributionCount": 58,
+            "weekday": 1
+        },
+        {
+            "date": "2025-03-25",
+            "contributionCount": 55,
+            "weekday": 2
+        },
+        {
+            "date": "2025-03-26",
+            "contributionCount": 46,
+            "weekday": 3
+        },
+        {
+            "date": "2025-03-27",
+            "contributionCount": 46,
+            "weekday": 4
+        },
+        {
+            "date": "2025-03-28",
+            "contributionCount": 53,
+            "weekday": 5
+        },
+        {
+            "date": "2025-03-29",
+            "contributionCount": 47,
+            "weekday": 6
+        },
+        {
+            "date": "2025-03-30",
+            "contributionCount": 44,
+            "weekday": 0
+        },
+        {
+            "date": "2025-03-31",
+            "contributionCount": 45,
+            "weekday": 1
+        },
+        {
+            "date": "2025-04-01",
+            "contributionCount": 50,
+            "weekday": 2
+        },
+        {
+            "date": "2025-04-02",
+            "contributionCount": 58,
+            "weekday": 3
+        },
+        {
+            "date": "2025-04-03",
+            "contributionCount": 56,
+            "weekday": 4
+        },
+        {
+            "date": "2025-04-04",
+            "contributionCount": 47,
+            "weekday": 5
+        },
+        {
+            "date": "2025-04-05",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-04-06",
+            "contributionCount": 58,
+            "weekday": 0
+        },
+        {
+            "date": "2025-04-07",
+            "contributionCount": 52,
+            "weekday": 1
+        },
+        {
+            "date": "2025-04-08",
+            "contributionCount": 58,
+            "weekday": 2
+        },
+        {
+            "date": "2025-04-09",
+            "contributionCount": 61,
+            "weekday": 3
+        },
+        {
+            "date": "2025-04-10",
+            "contributionCount": 50,
+            "weekday": 4
+        },
+        {
+            "date": "2025-04-11",
+            "contributionCount": 50,
+            "weekday": 5
+        },
+        {
+            "date": "2025-04-12",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-04-13",
+            "contributionCount": 47,
+            "weekday": 0
+        },
+        {
+            "date": "2025-04-14",
+            "contributionCount": 48,
+            "weekday": 1
+        },
+        {
+            "date": "2025-04-15",
+            "contributionCount": 50,
+            "weekday": 2
+        },
+        {
+            "date": "2025-04-16",
+            "contributionCount": 50,
+            "weekday": 3
+        },
+        {
+            "date": "2025-04-17",
+            "contributionCount": 61,
+            "weekday": 4
+        },
+        {
+            "date": "2025-04-18",
+            "contributionCount": 58,
+            "weekday": 5
+        },
+        {
+            "date": "2025-04-19",
+            "contributionCount": 56,
+            "weekday": 6
+        },
+        {
+            "date": "2025-04-20",
+            "contributionCount": 50,
+            "weekday": 0
+        },
+        {
+            "date": "2025-04-21",
+            "contributionCount": 56,
+            "weekday": 1
+        },
+        {
+            "date": "2025-04-22",
+            "contributionCount": 58,
+            "weekday": 2
+        },
+        {
+            "date": "2025-04-23",
+            "contributionCount": 51,
+            "weekday": 3
+        },
+        {
+            "date": "2025-04-24",
+            "contributionCount": 62,
+            "weekday": 4
+        },
+        {
+            "date": "2025-04-25",
+            "contributionCount": 52,
+            "weekday": 5
+        },
+        {
+            "date": "2025-04-26",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-04-27",
+            "contributionCount": 49,
+            "weekday": 0
+        },
+        {
+            "date": "2025-04-28",
+            "contributionCount": 49,
+            "weekday": 1
+        },
+        {
+            "date": "2025-04-29",
+            "contributionCount": 50,
+            "weekday": 2
+        },
+        {
+            "date": "2025-04-30",
+            "contributionCount": 49,
+            "weekday": 3
+        },
+        {
+            "date": "2025-05-01",
+            "contributionCount": 49,
+            "weekday": 4
+        },
+        {
+            "date": "2025-05-02",
+            "contributionCount": 49,
+            "weekday": 5
+        },
+        {
+            "date": "2025-05-03",
+            "contributionCount": 50,
+            "weekday": 6
+        },
+        {
+            "date": "2025-05-04",
+            "contributionCount": 48,
+            "weekday": 0
+        },
+        {
+            "date": "2025-05-05",
+            "contributionCount": 49,
+            "weekday": 1
+        },
+        {
+            "date": "2025-05-06",
+            "contributionCount": 54,
+            "weekday": 2
+        },
+        {
+            "date": "2025-05-07",
+            "contributionCount": 52,
+            "weekday": 3
+        },
+        {
+            "date": "2025-05-08",
+            "contributionCount": 49,
+            "weekday": 4
+        },
+        {
+            "date": "2025-05-09",
+            "contributionCount": 56,
+            "weekday": 5
+        },
+        {
+            "date": "2025-05-10",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-05-11",
+            "contributionCount": 52,
+            "weekday": 0
+        },
+        {
+            "date": "2025-05-12",
+            "contributionCount": 54,
+            "weekday": 1
+        },
+        {
+            "date": "2025-05-13",
+            "contributionCount": 50,
+            "weekday": 2
+        },
+        {
+            "date": "2025-05-14",
+            "contributionCount": 55,
+            "weekday": 3
+        },
+        {
+            "date": "2025-05-15",
+            "contributionCount": 53,
+            "weekday": 4
+        },
+        {
+            "date": "2025-05-16",
+            "contributionCount": 50,
+            "weekday": 5
+        },
+        {
+            "date": "2025-05-17",
+            "contributionCount": 50,
+            "weekday": 6
+        },
+        {
+            "date": "2025-05-18",
+            "contributionCount": 49,
+            "weekday": 0
+        },
+        {
+            "date": "2025-05-19",
+            "contributionCount": 53,
+            "weekday": 1
+        },
+        {
+            "date": "2025-05-20",
+            "contributionCount": 53,
+            "weekday": 2
+        },
+        {
+            "date": "2025-05-21",
+            "contributionCount": 56,
+            "weekday": 3
+        },
+        {
+            "date": "2025-05-22",
+            "contributionCount": 52,
+            "weekday": 4
+        },
+        {
+            "date": "2025-05-23",
+            "contributionCount": 50,
+            "weekday": 5
+        },
+        {
+            "date": "2025-05-24",
+            "contributionCount": 55,
+            "weekday": 6
+        },
+        {
+            "date": "2025-05-25",
+            "contributionCount": 51,
+            "weekday": 0
+        },
+        {
+            "date": "2025-05-26",
+            "contributionCount": 48,
+            "weekday": 1
+        },
+        {
+            "date": "2025-05-27",
+            "contributionCount": 50,
+            "weekday": 2
+        },
+        {
+            "date": "2025-05-28",
+            "contributionCount": 49,
+            "weekday": 3
+        },
+        {
+            "date": "2025-05-29",
+            "contributionCount": 61,
+            "weekday": 4
+        },
+        {
+            "date": "2025-05-30",
+            "contributionCount": 50,
+            "weekday": 5
+        },
+        {
+            "date": "2025-05-31",
+            "contributionCount": 50,
+            "weekday": 6
+        },
+        {
+            "date": "2025-06-01",
+            "contributionCount": 49,
+            "weekday": 0
+        },
+        {
+            "date": "2025-06-02",
+            "contributionCount": 53,
+            "weekday": 1
+        },
+        {
+            "date": "2025-06-03",
+            "contributionCount": 49,
+            "weekday": 2
+        },
+        {
+            "date": "2025-06-04",
+            "contributionCount": 48,
+            "weekday": 3
+        },
+        {
+            "date": "2025-06-05",
+            "contributionCount": 53,
+            "weekday": 4
+        },
+        {
+            "date": "2025-06-06",
+            "contributionCount": 54,
+            "weekday": 5
+        },
+        {
+            "date": "2025-06-07",
+            "contributionCount": 54,
+            "weekday": 6
+        },
+        {
+            "date": "2025-06-08",
+            "contributionCount": 48,
+            "weekday": 0
+        },
+        {
+            "date": "2025-06-09",
+            "contributionCount": 50,
+            "weekday": 1
+        },
+        {
+            "date": "2025-06-10",
+            "contributionCount": 48,
+            "weekday": 2
+        },
+        {
+            "date": "2025-06-11",
+            "contributionCount": 50,
+            "weekday": 3
+        },
+        {
+            "date": "2025-06-12",
+            "contributionCount": 47,
+            "weekday": 4
+        },
+        {
+            "date": "2025-06-13",
+            "contributionCount": 48,
+            "weekday": 5
+        },
+        {
+            "date": "2025-06-14",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-06-15",
+            "contributionCount": 49,
+            "weekday": 0
+        },
+        {
+            "date": "2025-06-16",
+            "contributionCount": 51,
+            "weekday": 1
+        },
+        {
+            "date": "2025-06-17",
+            "contributionCount": 54,
+            "weekday": 2
+        },
+        {
+            "date": "2025-06-18",
+            "contributionCount": 48,
+            "weekday": 3
+        },
+        {
+            "date": "2025-06-19",
+            "contributionCount": 60,
+            "weekday": 4
+        },
+        {
+            "date": "2025-06-20",
+            "contributionCount": 52,
+            "weekday": 5
+        },
+        {
+            "date": "2025-06-21",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-06-22",
+            "contributionCount": 48,
+            "weekday": 0
+        },
+        {
+            "date": "2025-06-23",
+            "contributionCount": 51,
+            "weekday": 1
+        },
+        {
+            "date": "2025-06-24",
+            "contributionCount": 52,
+            "weekday": 2
+        },
+        {
+            "date": "2025-06-25",
+            "contributionCount": 49,
+            "weekday": 3
+        },
+        {
+            "date": "2025-06-26",
+            "contributionCount": 48,
+            "weekday": 4
+        },
+        {
+            "date": "2025-06-27",
+            "contributionCount": 49,
+            "weekday": 5
+        },
+        {
+            "date": "2025-06-28",
+            "contributionCount": 48,
+            "weekday": 6
+        },
+        {
+            "date": "2025-06-29",
+            "contributionCount": 49,
+            "weekday": 0
+        },
+        {
+            "date": "2025-06-30",
+            "contributionCount": 48,
+            "weekday": 1
+        },
+        {
+            "date": "2025-07-01",
+            "contributionCount": 48,
+            "weekday": 2
+        },
+        {
+            "date": "2025-07-02",
+            "contributionCount": 48,
+            "weekday": 3
+        },
+        {
+            "date": "2025-07-03",
+            "contributionCount": 49,
+            "weekday": 4
+        },
+        {
+            "date": "2025-07-04",
+            "contributionCount": 56,
+            "weekday": 5
+        },
+        {
+            "date": "2025-07-05",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-07-06",
+            "contributionCount": 48,
+            "weekday": 0
+        },
+        {
+            "date": "2025-07-07",
+            "contributionCount": 49,
+            "weekday": 1
+        },
+        {
+            "date": "2025-07-08",
+            "contributionCount": 49,
+            "weekday": 2
+        },
+        {
+            "date": "2025-07-09",
+            "contributionCount": 49,
+            "weekday": 3
+        },
+        {
+            "date": "2025-07-10",
+            "contributionCount": 60,
+            "weekday": 4
+        },
+        {
+            "date": "2025-07-11",
+            "contributionCount": 63,
+            "weekday": 5
+        },
+        {
+            "date": "2025-07-12",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-07-13",
+            "contributionCount": 48,
+            "weekday": 0
+        },
+        {
+            "date": "2025-07-14",
+            "contributionCount": 54,
+            "weekday": 1
+        },
+        {
+            "date": "2025-07-15",
+            "contributionCount": 49,
+            "weekday": 2
+        },
+        {
+            "date": "2025-07-16",
+            "contributionCount": 50,
+            "weekday": 3
+        },
+        {
+            "date": "2025-07-17",
+            "contributionCount": 52,
+            "weekday": 4
+        },
+        {
+            "date": "2025-07-18",
+            "contributionCount": 49,
+            "weekday": 5
+        },
+        {
+            "date": "2025-07-19",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-07-20",
+            "contributionCount": 47,
+            "weekday": 0
+        },
+        {
+            "date": "2025-07-21",
+            "contributionCount": 48,
+            "weekday": 1
+        },
+        {
+            "date": "2025-07-22",
+            "contributionCount": 53,
+            "weekday": 2
+        },
+        {
+            "date": "2025-07-23",
+            "contributionCount": 60,
+            "weekday": 3
+        },
+        {
+            "date": "2025-07-24",
+            "contributionCount": 55,
+            "weekday": 4
+        },
+        {
+            "date": "2025-07-25",
+            "contributionCount": 53,
+            "weekday": 5
+        },
+        {
+            "date": "2025-07-26",
+            "contributionCount": 49,
+            "weekday": 6
+        },
+        {
+            "date": "2025-07-27",
+            "contributionCount": 48,
+            "weekday": 0
+        },
+        {
+            "date": "2025-07-28",
+            "contributionCount": 47,
+            "weekday": 1
+        },
+        {
+            "date": "2025-07-29",
+            "contributionCount": 48,
+            "weekday": 2
+        },
+        {
+            "date": "2025-07-30",
+            "contributionCount": 50,
+            "weekday": 3
+        },
+        {
+            "date": "2025-07-31",
+            "contributionCount": 48,
+            "weekday": 4
+        },
+        {
+            "date": "2025-08-01",
+            "contributionCount": 60,
+            "weekday": 5
+        },
+        {
+            "date": "2025-08-02",
+            "contributionCount": 44,
+            "weekday": 6
+        },
+        {
+            "date": "2025-08-03",
+            "contributionCount": 66,
+            "weekday": 0
+        },
+        {
+            "date": "2025-08-04",
+            "contributionCount": 66,
+            "weekday": 1
+        },
+        {
+            "date": "2025-08-05",
+            "contributionCount": 61,
+            "weekday": 2
+        },
+        {
+            "date": "2025-08-06",
+            "contributionCount": 55,
+            "weekday": 3
+        },
+        {
+            "date": "2025-08-07",
+            "contributionCount": 56,
+            "weekday": 4
+        },
+        {
+            "date": "2025-08-08",
+            "contributionCount": 49,
+            "weekday": 5
+        },
+        {
+            "date": "2025-08-09",
+            "contributionCount": 54,
+            "weekday": 6
+        },
+        {
+            "date": "2025-08-10",
+            "contributionCount": 53,
+            "weekday": 0
+        },
+        {
+            "date": "2025-08-11",
+            "contributionCount": 50,
+            "weekday": 1
+        },
+        {
+            "date": "2025-08-12",
+            "contributionCount": 53,
+            "weekday": 2
+        },
+        {
+            "date": "2025-08-13",
+            "contributionCount": 58,
+            "weekday": 3
+        },
+        {
+            "date": "2025-08-14",
+            "contributionCount": 50,
+            "weekday": 4
+        },
+        {
+            "date": "2025-08-15",
+            "contributionCount": 60,
+            "weekday": 5
+        },
+        {
+            "date": "2025-08-16",
+            "contributionCount": 46,
+            "weekday": 6
+        },
+        {
+            "date": "2025-08-17",
+            "contributionCount": 47,
+            "weekday": 0
+        },
+        {
+            "date": "2025-08-18",
+            "contributionCount": 47,
+            "weekday": 1
+        },
+        {
+            "date": "2025-08-19",
+            "contributionCount": 46,
+            "weekday": 2
+        },
+        {
+            "date": "2025-08-20",
+            "contributionCount": 53,
+            "weekday": 3
+        },
+        {
+            "date": "2025-08-21",
+            "contributionCount": 50,
+            "weekday": 4
+        },
+        {
+            "date": "2025-08-22",
+            "contributionCount": 56,
+            "weekday": 5
+        },
+        {
+            "date": "2025-08-23",
+            "contributionCount": 48,
+            "weekday": 6
+        },
+        {
+            "date": "2025-08-24",
+            "contributionCount": 47,
+            "weekday": 0
+        },
+        {
+            "date": "2025-08-25",
+            "contributionCount": 47,
+            "weekday": 1
+        },
+        {
+            "date": "2025-08-26",
+            "contributionCount": 60,
+            "weekday": 2
+        },
+        {
+            "date": "2025-08-27",
+            "contributionCount": 50,
+            "weekday": 3
+        },
+        {
+            "date": "2025-08-28",
+            "contributionCount": 47,
+            "weekday": 4
+        },
+        {
+            "date": "2025-08-29",
+            "contributionCount": 51,
+            "weekday": 5
+        },
+        {
+            "date": "2025-08-30",
+            "contributionCount": 48,
+            "weekday": 6
+        },
+        {
+            "date": "2025-08-31",
+            "contributionCount": 47,
+            "weekday": 0
+        },
+        {
+            "date": "2025-09-01",
+            "contributionCount": 47,
+            "weekday": 1
+        },
+        {
+            "date": "2025-09-02",
+            "contributionCount": 47,
+            "weekday": 2
+        },
+        {
+            "date": "2025-09-03",
+            "contributionCount": 49,
+            "weekday": 3
+        },
+        {
+            "date": "2025-09-04",
+            "contributionCount": 51,
+            "weekday": 4
+        },
+        {
+            "date": "2025-09-05",
+            "contributionCount": 82,
+            "weekday": 5
+        },
+        {
+            "date": "2025-09-06",
+            "contributionCount": 68,
+            "weekday": 6
+        },
+        {
+            "date": "2025-09-07",
+            "contributionCount": 60,
+            "weekday": 0
+        },
+        {
+            "date": "2025-09-08",
+            "contributionCount": 59,
+            "weekday": 1
+        },
+        {
+            "date": "2025-09-09",
+            "contributionCount": 50,
+            "weekday": 2
+        },
+        {
+            "date": "2025-09-10",
+            "contributionCount": 63,
+            "weekday": 3
+        },
+        {
+            "date": "2025-09-11",
+            "contributionCount": 52,
+            "weekday": 4
+        },
+        {
+            "date": "2025-09-12",
+            "contributionCount": 57,
+            "weekday": 5
+        },
+        {
+            "date": "2025-09-13",
+            "contributionCount": 56,
+            "weekday": 6
+        },
+        {
+            "date": "2025-09-14",
+            "contributionCount": 51,
+            "weekday": 0
+        },
+        {
+            "date": "2025-09-15",
+            "contributionCount": 51,
+            "weekday": 1
+        },
+        {
+            "date": "2025-09-16",
+            "contributionCount": 52,
+            "weekday": 2
+        },
+        {
+            "date": "2025-09-17",
+            "contributionCount": 57,
+            "weekday": 3
+        },
+        {
+            "date": "2025-09-18",
+            "contributionCount": 61,
+            "weekday": 4
+        },
+        {
+            "date": "2025-09-19",
+            "contributionCount": 67,
+            "weekday": 5
+        },
+        {
+            "date": "2025-09-20",
+            "contributionCount": 56,
+            "weekday": 6
+        },
+        {
+            "date": "2025-09-21",
+            "contributionCount": 55,
+            "weekday": 0
+        },
+        {
+            "date": "2025-09-22",
+            "contributionCount": 61,
+            "weekday": 1
+        },
+        {
+            "date": "2025-09-23",
+            "contributionCount": 56,
+            "weekday": 2
+        },
+        {
+            "date": "2025-09-24",
+            "contributionCount": 59,
+            "weekday": 3
+        },
+        {
+            "date": "2025-09-25",
+            "contributionCount": 55,
+            "weekday": 4
+        },
+        {
+            "date": "2025-09-26",
+            "contributionCount": 66,
+            "weekday": 5
+        },
+        {
+            "date": "2025-09-27",
+            "contributionCount": 70,
+            "weekday": 6
+        },
+        {
+            "date": "2025-09-28",
+            "contributionCount": 60,
+            "weekday": 0
+        },
+        {
+            "date": "2025-09-29",
+            "contributionCount": 60,
+            "weekday": 1
+        },
+        {
+            "date": "2025-09-30",
+            "contributionCount": 55,
+            "weekday": 2
+        },
+        {
+            "date": "2025-10-01",
+            "contributionCount": 54,
+            "weekday": 3
+        },
+        {
+            "date": "2025-10-02",
+            "contributionCount": 56,
+            "weekday": 4
+        },
+        {
+            "date": "2025-10-03",
+            "contributionCount": 57,
+            "weekday": 5
+        },
+        {
+            "date": "2025-10-04",
+            "contributionCount": 56,
+            "weekday": 6
+        },
+        {
+            "date": "2025-10-05",
+            "contributionCount": 55,
+            "weekday": 0
+        },
+        {
+            "date": "2025-10-06",
+            "contributionCount": 56,
+            "weekday": 1
+        },
+        {
+            "date": "2025-10-07",
+            "contributionCount": 60,
+            "weekday": 2
+        },
+        {
+            "date": "2025-10-08",
+            "contributionCount": 56,
+            "weekday": 3
+        },
+        {
+            "date": "2025-10-09",
+            "contributionCount": 56,
+            "weekday": 4
+        },
+        {
+            "date": "2025-10-10",
+            "contributionCount": 55,
+            "weekday": 5
+        },
+        {
+            "date": "2025-10-11",
+            "contributionCount": 57,
+            "weekday": 6
+        },
+        {
+            "date": "2025-10-12",
+            "contributionCount": 55,
+            "weekday": 0
+        },
+        {
+            "date": "2025-10-13",
+            "contributionCount": 55,
+            "weekday": 1
+        },
+        {
+            "date": "2025-10-14",
+            "contributionCount": 56,
+            "weekday": 2
+        },
+        {
+            "date": "2025-10-15",
+            "contributionCount": 64,
+            "weekday": 3
+        },
+        {
+            "date": "2025-10-16",
+            "contributionCount": 55,
+            "weekday": 4
+        },
+        {
+            "date": "2025-10-17",
+            "contributionCount": 56,
+            "weekday": 5
+        },
+        {
+            "date": "2025-10-18",
+            "contributionCount": 56,
+            "weekday": 6
+        },
+        {
+            "date": "2025-10-19",
+            "contributionCount": 55,
+            "weekday": 0
+        },
+        {
+            "date": "2025-10-20",
+            "contributionCount": 54,
+            "weekday": 1
+        },
+        {
+            "date": "2025-10-21",
+            "contributionCount": 56,
+            "weekday": 2
+        },
+        {
+            "date": "2025-10-22",
+            "contributionCount": 54,
+            "weekday": 3
+        },
+        {
+            "date": "2025-10-23",
+            "contributionCount": 59,
+            "weekday": 4
+        },
+        {
+            "date": "2025-10-24",
+            "contributionCount": 57,
+            "weekday": 5
+        },
+        {
+            "date": "2025-10-25",
+            "contributionCount": 56,
+            "weekday": 6
+        },
+        {
+            "date": "2025-10-26",
+            "contributionCount": 54,
+            "weekday": 0
+        },
+        {
+            "date": "2025-10-27",
+            "contributionCount": 54,
+            "weekday": 1
+        },
+        {
+            "date": "2025-10-28",
+            "contributionCount": 63,
+            "weekday": 2
+        },
+        {
+            "date": "2025-10-29",
+            "contributionCount": 55,
+            "weekday": 3
+        },
+        {
+            "date": "2025-10-30",
+            "contributionCount": 56,
+            "weekday": 4
+        },
+        {
+            "date": "2025-10-31",
+            "contributionCount": 56,
+            "weekday": 5
+        },
+        {
+            "date": "2025-11-01",
+            "contributionCount": 55,
+            "weekday": 6
+        },
+        {
+            "date": "2025-11-02",
+            "contributionCount": 54,
+            "weekday": 0
+        },
+        {
+            "date": "2025-11-03",
+            "contributionCount": 55,
+            "weekday": 1
+        },
+        {
+            "date": "2025-11-04",
+            "contributionCount": 55,
+            "weekday": 2
+        },
+        {
+            "date": "2025-11-05",
+            "contributionCount": 55,
+            "weekday": 3
+        },
+        {
+            "date": "2025-11-06",
+            "contributionCount": 54,
+            "weekday": 4
+        },
+        {
+            "date": "2025-11-07",
+            "contributionCount": 57,
+            "weekday": 5
+        },
+        {
+            "date": "2025-11-08",
+            "contributionCount": 54,
+            "weekday": 6
+        },
+        {
+            "date": "2025-11-09",
+            "contributionCount": 55,
+            "weekday": 0
+        },
+        {
+            "date": "2025-11-10",
+            "contributionCount": 53,
+            "weekday": 1
+        },
+        {
+            "date": "2025-11-11",
+            "contributionCount": 55,
+            "weekday": 2
+        },
+        {
+            "date": "2025-11-12",
+            "contributionCount": 54,
+            "weekday": 3
+        },
+        {
+            "date": "2025-11-13",
+            "contributionCount": 55,
+            "weekday": 4
+        },
+        {
+            "date": "2025-11-14",
+            "contributionCount": 54,
+            "weekday": 5
+        },
+        {
+            "date": "2025-11-15",
+            "contributionCount": 56,
+            "weekday": 6
+        },
+        {
+            "date": "2025-11-16",
+            "contributionCount": 53,
+            "weekday": 0
+        },
+        {
+            "date": "2025-11-17",
+            "contributionCount": 55,
+            "weekday": 1
+        },
+        {
+            "date": "2025-11-18",
+            "contributionCount": 51,
+            "weekday": 2
+        },
+        {
+            "date": "2025-11-19",
+            "contributionCount": 56,
+            "weekday": 3
+        },
+        {
+            "date": "2025-11-20",
+            "contributionCount": 55,
+            "weekday": 4
+        },
+        {
+            "date": "2025-11-21",
+            "contributionCount": 56,
+            "weekday": 5
+        },
+        {
+            "date": "2025-11-22",
+            "contributionCount": 56,
+            "weekday": 6
+        },
+        {
+            "date": "2025-11-23",
+            "contributionCount": 55,
+            "weekday": 0
+        },
+        {
+            "date": "2025-11-24",
+            "contributionCount": 54,
+            "weekday": 1
+        },
+        {
+            "date": "2025-11-25",
+            "contributionCount": 57,
+            "weekday": 2
+        },
+        {
+            "date": "2025-11-26",
+            "contributionCount": 57,
+            "weekday": 3
+        },
+        {
+            "date": "2025-11-27",
+            "contributionCount": 57,
+            "weekday": 4
+        },
+        {
+            "date": "2025-11-28",
+            "contributionCount": 53,
+            "weekday": 5
+        },
+        {
+            "date": "2025-11-29",
+            "contributionCount": 55,
+            "weekday": 6
+        },
+        {
+            "date": "2025-11-30",
+            "contributionCount": 50,
+            "weekday": 0
+        },
+        {
+            "date": "2025-12-01",
+            "contributionCount": 60,
+            "weekday": 1
+        },
+        {
+            "date": "2025-12-02",
+            "contributionCount": 64,
+            "weekday": 2
+        },
+        {
+            "date": "2025-12-03",
+            "contributionCount": 78,
+            "weekday": 3
+        },
+        {
+            "date": "2025-12-04",
+            "contributionCount": 69,
+            "weekday": 4
+        },
+        {
+            "date": "2025-12-05",
+            "contributionCount": 57,
+            "weekday": 5
+        },
+        {
+            "date": "2025-12-06",
+            "contributionCount": 55,
+            "weekday": 6
+        },
+        {
+            "date": "2025-12-07",
+            "contributionCount": 55,
+            "weekday": 0
+        },
+        {
+            "date": "2025-12-08",
+            "contributionCount": 71,
+            "weekday": 1
+        },
+        {
+            "date": "2025-12-09",
+            "contributionCount": 63,
+            "weekday": 2
+        },
+        {
+            "date": "2025-12-10",
+            "contributionCount": 59,
+            "weekday": 3
+        },
+        {
+            "date": "2025-12-11",
+            "contributionCount": 75,
+            "weekday": 4
+        },
+        {
+            "date": "2025-12-12",
+            "contributionCount": 64,
+            "weekday": 5
+        },
+        {
+            "date": "2025-12-13",
+            "contributionCount": 62,
+            "weekday": 6
+        },
+        {
+            "date": "2025-12-14",
+            "contributionCount": 53,
+            "weekday": 0
+        },
+        {
+            "date": "2025-12-15",
+            "contributionCount": 59,
+            "weekday": 1
+        },
+        {
+            "date": "2025-12-16",
+            "contributionCount": 55,
+            "weekday": 2
+        },
+        {
+            "date": "2025-12-17",
+            "contributionCount": 78,
+            "weekday": 3
+        },
+        {
+            "date": "2025-12-18",
+            "contributionCount": 56,
+            "weekday": 4
+        },
+        {
+            "date": "2025-12-19",
+            "contributionCount": 55,
+            "weekday": 5
+        },
+        {
+            "date": "2025-12-20",
+            "contributionCount": 54,
+            "weekday": 6
+        },
+        {
+            "date": "2025-12-21",
+            "contributionCount": 50,
+            "weekday": 0
+        },
+        {
+            "date": "2025-12-22",
+            "contributionCount": 50,
+            "weekday": 1
+        },
+        {
+            "date": "2025-12-23",
+            "contributionCount": 50,
+            "weekday": 2
+        },
+        {
+            "date": "2025-12-24",
+            "contributionCount": 65,
+            "weekday": 3
+        },
+        {
+            "date": "2025-12-25",
+            "contributionCount": 49,
+            "weekday": 4
+        }
+    ]
+}
