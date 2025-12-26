@@ -157,6 +157,8 @@ interface ContributionDay {
             // 创建的 pr 数
             pullRequests: contributions.contributionsCollection.totalPullRequestContributions,
         },
+        // issues
+        issues: issues.issues,
         repository,
         // 热门语言排行
         languages: summarizeRepoLanguages(repository?.repositories?.nodes ?? []),
