@@ -15,29 +15,24 @@
                     class="h-28"
                 >
                     <VisXYContainer
-                        :data="chartData"
+                        :data="weeklyAverageContribution"
                     >
                         <VisStackedBar
                             :bar-width="20"
-                            :color="chartConfig.desktop.color"
+                            :color="chartConfig.averagePerWeek.color"
                             :rounded-corners="25"
-                            :x="(d: Data) => d.date"
-                            :y="(d: Data) => d.desktop"
+                            :x="(_: IWeeklyContribution, i:number) => i"
+                            :y="(d: IWeeklyContribution) => d.averagePerWeek"
                         />
                         <VisAxis
                             :domain-line="false"
                             :grid-line="false"
                             :num-ticks="6"
-                            :tick-format="(d: number) => {
-                                const date = new Date(d)
-                                // return date.toLocaleDateString('en-US', {
-                                //     month: 'short',
-                                // })
-                                return '三月'
+                            :tick-format="(_:any, i:number) => {
+                                return weeklyAverageContribution[i] && weeklyAverageContribution[i].day
                             }"
                             :tick-line="false"
-                            :tick-values="chartData.map(d => d.date)"
-                            :x="(d: Data) => d.date"
+                            :x="(_: any, i:number) => i"
                             type="x"
                         />
                         <ChartTooltip />
@@ -62,26 +57,18 @@ import {
     componentToString,
 } from '~/components/ui/chart'
 import { VisAxis, VisStackedBar, VisXYContainer } from '@unovis/vue'
+import { useGithubData } from '~/components/github/index'
+import type { IWeeklyContribution } from '~/types/github'
 
 defineOptions({
     name: 'GithubAverageCommitsPerWeek',
 })
 
-const chartData = [
-    { date: new Date('2024-01-01'), desktop: 186 },
-    { date: new Date('2024-02-01'), desktop: 305 },
-    { date: new Date('2024-03-01'), desktop: 237 },
-    { date: new Date('2024-04-01'), desktop: 73 },
-    { date: new Date('2024-05-01'), desktop: 209 },
-    { date: new Date('2024-06-01'), desktop: 214 },
-    { date: new Date('2024-07-01'), desktop: 186 },
-]
-
-type Data = typeof chartData[number]
+const { weeklyAverageContribution } = useGithubData()
 
 const chartConfig = {
-    desktop: {
-        label: 'Desktop',
+    averagePerWeek: {
+        label: 'Commits:',
         color: 'var(--chart-2)',
     },
 } satisfies ChartConfig
