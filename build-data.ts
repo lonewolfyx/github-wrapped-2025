@@ -81,7 +81,7 @@ const repositoryQuery = `# 个人仓库
 
 const contributionQuery = `contributionsCollection(
             from: "2025-01-01T00:00:00Z"
-            to: "2025-12-25T23:59:59Z"
+            to: "2025-12-31T23:59:59Z"
         ) {
             contributionCalendar { # 贡献日历
                 weeks { # 按照周分组
