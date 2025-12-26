@@ -18,3 +18,18 @@ export { default as GithubWeekendActivity } from './GithubWeekendActivity.vue'
 export { default as GithubTopRepositoryItems } from './GithubTopRepositoryItems.vue'
 
 export const [providerGithubData, useGithubData] = createContext<any>('GithubData')
+
+/**
+ * 获取进度条的 dasharray
+ * @param use 已完成的业务量
+ * @param total 总量
+ * @param radius 半径
+ */
+export const getStrokeDasharray = (use: number, total: number, radius: number): string => {
+    const path = 2 * Math.PI * radius
+    const progress = use / total
+    const dash = Number((progress * path).toFixed(2))
+    const gap = Number((path - dash).toFixed(2))
+
+    return `${dash}, ${gap}`
+}

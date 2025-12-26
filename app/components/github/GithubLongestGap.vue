@@ -21,7 +21,7 @@
                             stroke-width="12"
                         />
                         <circle
-                            :stroke-dasharray="`${(123 / 365) * 352} 352`"
+                            :stroke-dasharray="strokeDasharray"
                             class="text-red-600"
                             cx="55"
                             cy="55"
@@ -49,7 +49,11 @@
 </template>
 
 <script lang="ts" setup>
+import { getStrokeDasharray } from '.'
+
 defineOptions({
     name: 'GithubLongestGap',
 })
+
+const strokeDasharray = computed(() => getStrokeDasharray(300, 365, 45))
 </script>
