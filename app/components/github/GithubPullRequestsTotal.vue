@@ -21,8 +21,8 @@
                             stroke-width="12"
                         />
                         <circle
-                            :stroke-dasharray="`${(123 / 9999999) * 352} 352`"
-                            class="text-green-600"
+                            :stroke-dasharray="strokeDasharray"
+                            class="text-orange-600"
                             cx="55"
                             cy="55"
                             fill="transparent"
@@ -49,10 +49,15 @@
 </template>
 
 <script lang="ts" setup>
-import SiteCardHeader from '~/components/SiteCardHeader.vue'
-import SiteCard from '~/components/SiteCard.vue'
+import { getStrokeDasharray } from '.'
 
 defineOptions({
     name: 'GithubPullRequestsTotal',
 })
+
+const total = 80
+const close = 20
+const merged = 30
+const used = computed(() => close + merged)
+const strokeDasharray = computed(() => getStrokeDasharray(used.value, total, 45))
 </script>
