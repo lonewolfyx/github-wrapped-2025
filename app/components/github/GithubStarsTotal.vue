@@ -10,14 +10,17 @@
         </SiteCardHeader>
         <CardContent class="h-full">
             <div class="flex justify-center items-center h-full">
-                <span class="base-text text-3xl">999,999,999</span>
+                <span class="base-text text-3xl">{{ total.stars.toLocaleString('en-US') }}</span>
             </div>
         </CardContent>
     </SiteCard>
 </template>
 
 <script lang="ts" setup>
+import { useGithubData } from '~/components/github/index'
+
 defineOptions({
     name: 'GithubStarsTotal',
 })
+const { total } = useGithubData()
 </script>
