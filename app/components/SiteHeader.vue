@@ -35,7 +35,7 @@
             <NuxtLink
                 :class="cn('hover:text-neutral-400')"
                 target="_blank"
-                to="/"
+                to="https://github.com/lonewolfyx/github-wrapped-2025"
             >
                 <Icon
                     mode="svg"
