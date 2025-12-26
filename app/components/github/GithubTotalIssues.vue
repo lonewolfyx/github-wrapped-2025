@@ -49,15 +49,13 @@
 </template>
 
 <script lang="ts" setup>
-import { getStrokeDasharray } from '.'
+import { getStrokeDasharray, useGithubData } from '.'
 
 defineOptions({
     name: 'GithubTotalIssues',
 })
 
-// 关闭的数量
-const close = 20
-const total = 329
-const used = computed(() => total - close)
-const strokeDasharray = computed(() => getStrokeDasharray(used.value, total, 45))
+const { total } = useGithubData()
+const used = computed(() => total.issues.total - total.issues.closed || total.issues.total)
+const strokeDasharray = computed(() => getStrokeDasharray(used.value, total.issues.total, 45))
 </script>
