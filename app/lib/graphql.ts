@@ -16,7 +16,7 @@ export const fetchGithubData = async (user: string, query: string, variables: ob
             timeout: 10000,
         })
 
-        return data.user
+        return data.user || data.search || {}
     }
     catch (error) {
         console.error(error)

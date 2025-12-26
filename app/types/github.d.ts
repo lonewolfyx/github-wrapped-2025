@@ -135,6 +135,23 @@ export interface IIssuesResult {
     open: number
 }
 
+export interface IPullRequestNode {
+    title: string
+    url: string
+    state: string
+    createdAt: string
+    closedAt: string
+    repository: {
+        nameWithOwner: string
+    }
+}
+
+export interface IPullRequestResult {
+    prs: IPullRequestNode[]
+    closed: number
+    merged: number
+}
+
 export interface IUser {
     login: string
     name: string
