@@ -14,7 +14,7 @@
         }
     },
     "total": {
-        "contributions": 18236,
+        "contributions": 18237,
         "stars": 165,
         "commits": 2908,
         "issues": {
@@ -23,1130 +23,6 @@
         },
         "pullRequests": {
             "total": 102,
-            "prs": [
-                {
-                    "title": "fix(ComponentLoader): add padding styles to ComponentLoader",
-                    "url": "https://github.com/vuepont/ai-elements-vue/pull/111",
-                    "state": "CLOSED",
-                    "createdAt": "2025-12-15T03:13:08Z",
-                    "repository": {
-                        "nameWithOwner": "vuepont/ai-elements-vue"
-                    },
-                    "merged": false,
-                    "mergedAt": null
-                },
-                {
-                    "title": "Inital Project",
-                    "url": "https://github.com/lonewolfyx-template/monorepo-template/pull/1",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-13T16:15:23Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx-template/monorepo-template"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-13T16:15:34Z"
-                },
-                {
-                    "title": "docs(cn): translate \"Vitest UI -> Module Graph\" content",
-                    "url": "https://github.com/vitest-dev/docs-cn/pull/843",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-12T14:22:22Z",
-                    "repository": {
-                        "nameWithOwner": "vitest-dev/docs-cn"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-13T05:41:42Z"
-                },
-                {
-                    "title": "Inital Project",
-                    "url": "https://github.com/ScaffoldCore/shadcn-vue-registry/pull/1",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-05T13:21:03Z",
-                    "repository": {
-                        "nameWithOwner": "ScaffoldCore/shadcn-vue-registry"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-05T13:21:12Z"
-                },
-                {
-                    "title": "chore(ci): add pr contributor welcome workflow",
-                    "url": "https://github.com/vuepont/ai-elements-vue/pull/80",
-                    "state": "CLOSED",
-                    "createdAt": "2025-12-04T14:35:24Z",
-                    "repository": {
-                        "nameWithOwner": "vuepont/ai-elements-vue"
-                    },
-                    "merged": false,
-                    "mergedAt": null
-                },
-                {
-                    "title": "refactor(index-ui): update index ui",
-                    "url": "https://github.com/lonewolfyx/sixninenine/pull/13",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-04T07:43:26Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx/sixninenine"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-04T07:55:33Z"
-                },
-                {
-                    "title": "docs(mocking-functions): update content title",
-                    "url": "https://github.com/vitest-dev/docs-cn/pull/818",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-04T02:07:07Z",
-                    "repository": {
-                        "nameWithOwner": "vitest-dev/docs-cn"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-04T02:17:11Z"
-                },
-                {
-                    "title": "feat(shadcn-hub): add new registry Shadcn Ui Blocks",
-                    "url": "https://github.com/lonewolfyx/shadcn-hub/pull/5",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-03T12:09:21Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx/shadcn-hub"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-03T12:27:11Z"
-                },
-                {
-                    "title": "feat(shadcn-hub): add new registry Cult Ui",
-                    "url": "https://github.com/lonewolfyx/shadcn-hub/pull/4",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-03T11:42:53Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx/shadcn-hub"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-03T12:26:39Z"
-                },
-                {
-                    "title": "feat(shadcn-hub): add new registry Relume UI",
-                    "url": "https://github.com/lonewolfyx/shadcn-hub/pull/3",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-03T11:36:46Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx/shadcn-hub"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-03T12:25:59Z"
-                },
-                {
-                    "title": "feat(shadcn-hub): add registry Wickedblocks",
-                    "url": "https://github.com/lonewolfyx/shadcn-hub/pull/2",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-03T11:17:14Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx/shadcn-hub"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-03T12:21:52Z"
-                },
-                {
-                    "title": "feat(shadcn-hub): add new registry shadcnblock",
-                    "url": "https://github.com/lonewolfyx/shadcn-hub/pull/1",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-03T11:06:43Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx/shadcn-hub"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-03T11:07:21Z"
-                },
-                {
-                    "title": "chore(message): remove unnecessary type assertion on props.class",
-                    "url": "https://github.com/vuepont/ai-elements-vue/pull/75",
-                    "state": "MERGED",
-                    "createdAt": "2025-12-03T01:37:04Z",
-                    "repository": {
-                        "nameWithOwner": "vuepont/ai-elements-vue"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-12-04T12:43:32Z"
-                },
-                {
-                    "title": "feat: overview of open source projects in which members are involved",
-                    "url": "https://github.com/lonewolfyx/sixninenine/pull/9",
-                    "state": "MERGED",
-                    "createdAt": "2025-11-26T11:26:08Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx/sixninenine"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-11-26T11:31:20Z"
-                },
-                {
-                    "title": "fix: user presentation and layout optimization under small media",
-                    "url": "https://github.com/lonewolfyx/sixninenine/pull/7",
-                    "state": "MERGED",
-                    "createdAt": "2025-10-23T07:12:31Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx/sixninenine"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-10-23T07:12:39Z"
-                },
-                {
-                    "title": "feat: add `blogpost3` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/65",
-                    "state": "MERGED",
-                    "createdAt": "2025-10-09T12:05:42Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-11-03T01:20:12Z"
-                },
-                {
-                    "title": "feat: add `stats2` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/64",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-29T13:14:27Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-29T13:38:06Z"
-                },
-                {
-                    "title": "feat: add `stats1` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/63",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-29T13:14:22Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-29T13:37:56Z"
-                },
-                {
-                    "title": "feat: add `blogpost2` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/62",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-29T12:28:49Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-29T13:37:41Z"
-                },
-                {
-                    "title": "feat: add `blogpost1` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/61",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-29T12:21:37Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-29T12:22:55Z"
-                },
-                {
-                    "title": "feat: add `community7` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/60",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-28T13:29:43Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-28T13:30:26Z"
-                },
-                {
-                    "title": "feat: add `community6` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/59",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-28T13:20:26Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-28T13:30:16Z"
-                },
-                {
-                    "title": "feat: add `community5` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/58",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-28T13:11:54Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-28T13:30:02Z"
-                },
-                {
-                    "title": "feat: add `community4` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/57",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T16:08:49Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T16:10:11Z"
-                },
-                {
-                    "title": "feat: add `community3` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/56",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T15:49:16Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T16:10:01Z"
-                },
-                {
-                    "title": "feat: add `community2` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/55",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T15:49:04Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T16:09:21Z"
-                },
-                {
-                    "title": "feat: add `community1` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/54",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T15:30:28Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T15:31:27Z"
-                },
-                {
-                    "title": "feat: add `CaseStudy3` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/53",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T14:19:18Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T14:20:19Z"
-                },
-                {
-                    "title": "feat: add `CaseStudy2` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/52",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T12:56:29Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T14:20:14Z"
-                },
-                {
-                    "title": "feat: add `CaseStudy1` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/51",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T12:37:38Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T12:37:48Z"
-                },
-                {
-                    "title": "feat: add `banner6` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/50",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T08:10:13Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T08:11:16Z"
-                },
-                {
-                    "title": "feat: add `banner5` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/49",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T08:01:20Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T08:11:07Z"
-                },
-                {
-                    "title": "feat: add `banner4` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/48",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T07:49:02Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T08:10:58Z"
-                },
-                {
-                    "title": "feat: add `banner3` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/47",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T07:49:00Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T08:10:48Z"
-                },
-                {
-                    "title": "feat: add `banner2` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/46",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T07:39:52Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T08:10:39Z"
-                },
-                {
-                    "title": "feat: add `banner1` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/45",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T07:26:16Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T07:26:21Z"
-                },
-                {
-                    "title": "feat: add `login9` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/44",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-27T06:53:18Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T06:54:08Z"
-                },
-                {
-                    "title": "feat: add `login8` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/43",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-26T13:45:18Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T06:53:45Z"
-                },
-                {
-                    "title": "feat: add `login7` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/42",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-26T13:44:02Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-27T06:53:53Z"
-                },
-                {
-                    "title": "feat: add `login6` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/41",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-26T12:51:11Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-26T12:53:35Z"
-                },
-                {
-                    "title": "feat: add `login5` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/40",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-26T12:44:42Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-26T12:53:26Z"
-                },
-                {
-                    "title": "feat: add `login4` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/39",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-26T12:44:23Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-26T12:52:44Z"
-                },
-                {
-                    "title": "feat: add `login3` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/38",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-26T12:33:25Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-26T12:52:24Z"
-                },
-                {
-                    "title": "feat: add `login2` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/37",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-26T11:48:31Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-26T11:49:03Z"
-                },
-                {
-                    "title": "feat: add `login1` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/36",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-26T11:10:57Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-26T11:11:38Z"
-                },
-                {
-                    "title": "feat: add `logo16` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/35",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-26T03:07:28Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-26T03:11:14Z"
-                },
-                {
-                    "title": "fix(docs): correct typo in ForExample by adding space",
-                    "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/764",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-24T05:05:37Z",
-                    "repository": {
-                        "nameWithOwner": "vitest-dev/eslint-plugin-vitest"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-24T11:50:10Z"
-                },
-                {
-                    "title": "fix(docs): Fix syntax errors padding-around-test-blocks.md",
-                    "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/762",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-24T04:49:50Z",
-                    "repository": {
-                        "nameWithOwner": "vitest-dev/eslint-plugin-vitest"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-24T11:49:43Z"
-                },
-                {
-                    "title": "feat: add `logo15` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/33",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-23T07:34:22Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-26T03:10:49Z"
-                },
-                {
-                    "title": "feat: add `logo14` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/32",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-23T07:17:42Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-26T03:10:34Z"
-                },
-                {
-                    "title": "feat: add `logo13` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/31",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-21T14:50:56Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-22T09:09:12Z"
-                },
-                {
-                    "title": "feat: add `logo12` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/30",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-21T14:31:53Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-22T09:08:55Z"
-                },
-                {
-                    "title": "feat: add `logo11` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/29",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-21T14:25:39Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-22T09:08:39Z"
-                },
-                {
-                    "title": "feat: add `logo10` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/28",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-20T14:50:08Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-22T09:07:59Z"
-                },
-                {
-                    "title": "feat: add `logo9` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/27",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-20T09:49:58Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-22T09:07:45Z"
-                },
-                {
-                    "title": "feat: add `logo8` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/26",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-20T05:17:14Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-22T09:07:29Z"
-                },
-                {
-                    "title": "feat: add `logo7` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/25",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-20T05:06:45Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-22T09:07:16Z"
-                },
-                {
-                    "title": "feat: add `logo6` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/23",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T12:41:08Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T12:44:30Z"
-                },
-                {
-                    "title": "feat: add `logo5` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/22",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T12:30:37Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T12:44:16Z"
-                },
-                {
-                    "title": "feat: add `logo4` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/21",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T12:19:09Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T12:44:00Z"
-                },
-                {
-                    "title": "feat: add `logo3` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/20",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T12:11:40Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T12:43:01Z"
-                },
-                {
-                    "title": "feat: add `logo2` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/19",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T09:30:59Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T12:42:31Z"
-                },
-                {
-                    "title": "feat: add `integration4` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/18",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T08:34:59Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T08:36:51Z"
-                },
-                {
-                    "title": "fix(registry): data synchronization issues caused by canceling import cache reads",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/17",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T07:42:34Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T07:42:56Z"
-                },
-                {
-                    "title": "feat: add `integration3` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/16",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T05:51:15Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T05:51:45Z"
-                },
-                {
-                    "title": "fix: registry development mode file overwriting",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/15",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T05:16:25Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T05:17:01Z"
-                },
-                {
-                    "title": "feat: add `integration2` block",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/14",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-19T03:23:30Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-19T05:17:33Z"
-                },
-                {
-                    "title": "feat: add Documentation",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/13",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-17T13:56:09Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-17T13:56:42Z"
-                },
-                {
-                    "title": "refactor: blocks and menus construction",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/10",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-12T11:08:09Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-13T08:18:41Z"
-                },
-                {
-                    "title": "fix: sort directory/file entries alphabetically",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/9",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-12T07:03:37Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-12T07:03:49Z"
-                },
-                {
-                    "title": "fix: rename vitePluginMenus to virtualMenus",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/8",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-12T06:34:58Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-12T06:36:54Z"
-                },
-                {
-                    "title": "refactor: move common functions to share/utils",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/7",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-12T06:16:40Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-12T06:17:37Z"
-                },
-                {
-                    "title": "feat: add `Team11` blocks",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/6",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-12T01:43:08Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-12T01:45:32Z"
-                },
-                {
-                    "title": "style: adjust title layout and positioning",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/3",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-09T06:03:17Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-09T06:04:59Z"
-                },
-                {
-                    "title": "refactor(ui): homepage layout with new design",
-                    "url": "https://github.com/vue-blocks/vue-blocks/pull/2",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-08T08:26:40Z",
-                    "repository": {
-                        "nameWithOwner": "vue-blocks/vue-blocks"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-08T08:27:06Z"
-                },
-                {
-                    "title": "fix(ci): install pnpm in GitHub Actions workflow",
-                    "url": "https://github.com/Auto-Plugin/milkup/pull/64",
-                    "state": "MERGED",
-                    "createdAt": "2025-09-05T06:16:04Z",
-                    "repository": {
-                        "nameWithOwner": "Auto-Plugin/milkup"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-09-05T09:59:34Z"
-                },
-                {
-                    "title": "fix(ci): install pnpm in GitHub Actions workflow",
-                    "url": "https://github.com/Auto-Plugin/milkup/pull/63",
-                    "state": "CLOSED",
-                    "createdAt": "2025-09-04T13:23:24Z",
-                    "repository": {
-                        "nameWithOwner": "Auto-Plugin/milkup"
-                    },
-                    "merged": false,
-                    "mergedAt": null
-                },
-                {
-                    "title": "fix(ci) : Correct the incorrect address that causes image loading in …",
-                    "url": "https://github.com/Auto-Plugin/milkup/pull/57",
-                    "state": "MERGED",
-                    "createdAt": "2025-08-27T01:23:01Z",
-                    "repository": {
-                        "nameWithOwner": "Auto-Plugin/milkup"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-08-27T03:06:49Z"
-                },
-                {
-                    "title": "ci: add comment on PR merge workflow",
-                    "url": "https://github.com/Auto-Plugin/milkup/pull/56",
-                    "state": "MERGED",
-                    "createdAt": "2025-08-26T12:47:54Z",
-                    "repository": {
-                        "nameWithOwner": "Auto-Plugin/milkup"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-08-27T01:16:31Z"
-                },
-                {
-                    "title": "Master",
-                    "url": "https://github.com/lonewolfyx-template/nuxt-websocket-template/pull/1",
-                    "state": "MERGED",
-                    "createdAt": "2025-08-25T14:46:26Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx-template/nuxt-websocket-template"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-08-25T14:46:35Z"
-                },
-                {
-                    "title": "Initial project",
-                    "url": "https://github.com/lonewolfyx-template/ts-lib-template/pull/1",
-                    "state": "MERGED",
-                    "createdAt": "2025-08-24T12:23:06Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx-template/ts-lib-template"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-08-24T12:23:12Z"
-                },
-                {
-                    "title": "fix: 优化 GIthub Actions 版本发布",
-                    "url": "https://github.com/Auto-Plugin/milkup/pull/53",
-                    "state": "MERGED",
-                    "createdAt": "2025-08-20T13:45:42Z",
-                    "repository": {
-                        "nameWithOwner": "Auto-Plugin/milkup"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-08-21T03:16:40Z"
-                },
-                {
-                    "title": "init cli-template",
-                    "url": "https://github.com/lonewolfyx-template/cli-template/pull/1",
-                    "state": "MERGED",
-                    "createdAt": "2025-08-14T08:17:54Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx-template/cli-template"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-08-14T08:18:15Z"
-                },
-                {
-                    "title": "feat: add git release workflow template",
-                    "url": "https://github.com/lonewolfyx-template/git-yaml-template/pull/1",
-                    "state": "MERGED",
-                    "createdAt": "2025-08-14T07:26:23Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx-template/git-yaml-template"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-08-14T07:26:36Z"
-                },
-                {
-                    "title": "feat: add 渡一前端代码优化CodeReview、 渡一前端讲书频道",
-                    "url": "https://github.com/lonewolfyx/awesome-duyi/pull/1",
-                    "state": "MERGED",
-                    "createdAt": "2025-08-13T12:51:32Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx/awesome-duyi"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-08-13T12:51:40Z"
-                },
-                {
-                    "title": "feat: add CONTRIBUTING.md",
-                    "url": "https://github.com/lonewolfyx-template/-.md-template/pull/1",
-                    "state": "MERGED",
-                    "createdAt": "2025-08-11T14:21:49Z",
-                    "repository": {
-                        "nameWithOwner": "lonewolfyx-template/-.md-template"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-08-11T14:21:58Z"
-                },
-                {
-                    "title": "feat: Add `Escape` keyboard to close the `DataModuleDetailsLoader` or `DataAssetDetailsLoader`",
-                    "url": "https://github.com/vitejs/devtools/pull/44",
-                    "state": "MERGED",
-                    "createdAt": "2025-07-17T16:00:13Z",
-                    "repository": {
-                        "nameWithOwner": "vitejs/devtools"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-07-17T23:39:14Z"
-                },
-                {
-                    "title": "feat: add click event on FlowmapNode to toggle",
-                    "url": "https://github.com/vitejs/devtools/pull/36",
-                    "state": "MERGED",
-                    "createdAt": "2025-07-16T05:58:06Z",
-                    "repository": {
-                        "nameWithOwner": "vitejs/devtools"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-07-17T00:37:57Z"
-                },
-                {
-                    "title": "fix(ui): prevent diff highlight from affecting line number gutter in CodeMirror",
-                    "url": "https://github.com/vitejs/devtools/pull/23",
-                    "state": "CLOSED",
-                    "createdAt": "2025-07-14T06:22:09Z",
-                    "repository": {
-                        "nameWithOwner": "vitejs/devtools"
-                    },
-                    "merged": false,
-                    "mergedAt": null
-                },
-                {
-                    "title": "fix: move watch out of onMounted for immediate execution",
-                    "url": "https://github.com/vitejs/devtools/pull/22",
-                    "state": "CLOSED",
-                    "createdAt": "2025-07-14T02:28:49Z",
-                    "repository": {
-                        "nameWithOwner": "vitejs/devtools"
-                    },
-                    "merged": false,
-                    "mergedAt": null
-                },
-                {
-                    "title": "chore(package): add homepage and bugs fields",
-                    "url": "https://github.com/inkart-cli/inkart/pull/32",
-                    "state": "MERGED",
-                    "createdAt": "2025-06-12T01:53:54Z",
-                    "repository": {
-                        "nameWithOwner": "inkart-cli/inkart"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-06-12T05:19:28Z"
-                },
-                {
-                    "title": "feat: add search command",
-                    "url": "https://github.com/inkart-cli/inkart/pull/31",
-                    "state": "MERGED",
-                    "createdAt": "2025-06-11T16:34:39Z",
-                    "repository": {
-                        "nameWithOwner": "inkart-cli/inkart"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-06-12T05:19:10Z"
-                },
-                {
-                    "title": "refactor: centralize paths and reusable methods",
-                    "url": "https://github.com/inkart-cli/inkart/pull/24",
-                    "state": "MERGED",
-                    "createdAt": "2025-06-10T07:31:11Z",
-                    "repository": {
-                        "nameWithOwner": "inkart-cli/inkart"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-06-10T08:28:13Z"
-                },
-                {
-                    "title": "chore: update .gitignore to exclude log files",
-                    "url": "https://github.com/inkart-cli/inkart/pull/23",
-                    "state": "MERGED",
-                    "createdAt": "2025-06-10T06:58:18Z",
-                    "repository": {
-                        "nameWithOwner": "inkart-cli/inkart"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-06-10T08:26:50Z"
-                },
-                {
-                    "title": "fix: correct the template and prompts name",
-                    "url": "https://github.com/inkart-cli/inkart/pull/20",
-                    "state": "MERGED",
-                    "createdAt": "2025-06-10T02:38:36Z",
-                    "repository": {
-                        "nameWithOwner": "inkart-cli/inkart"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-06-10T05:02:20Z"
-                },
-                {
-                    "title": "fix: correct bin field in package.json to properly expose CLI command",
-                    "url": "https://github.com/inkart-cli/inkart/pull/19",
-                    "state": "MERGED",
-                    "createdAt": "2025-06-10T02:29:43Z",
-                    "repository": {
-                        "nameWithOwner": "inkart-cli/inkart"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-06-10T05:23:09Z"
-                },
-                {
-                    "title": "fix: optimize module reading",
-                    "url": "https://github.com/inkart-cli/inkart/pull/17",
-                    "state": "MERGED",
-                    "createdAt": "2025-06-03T13:37:13Z",
-                    "repository": {
-                        "nameWithOwner": "inkart-cli/inkart"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-06-03T13:53:15Z"
-                },
-                {
-                    "title": "[zh-CN]: add translation for http status 226",
-                    "url": "https://github.com/mdn/translated-content/pull/26149",
-                    "state": "MERGED",
-                    "createdAt": "2025-03-04T03:14:32Z",
-                    "repository": {
-                        "nameWithOwner": "mdn/translated-content"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-03-06T07:37:44Z"
-                },
-                {
-                    "title": "[zh-cn] update the translation of `PerformanceResourceTiming`",
-                    "url": "https://github.com/mdn/translated-content/pull/25890",
-                    "state": "MERGED",
-                    "createdAt": "2025-02-14T08:03:11Z",
-                    "repository": {
-                        "nameWithOwner": "mdn/translated-content"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-03-01T04:38:30Z"
-                },
-                {
-                    "title": "[zh-CN]: update performance timestamp diagram link",
-                    "url": "https://github.com/mdn/translated-content/pull/25842",
-                    "state": "MERGED",
-                    "createdAt": "2025-02-11T07:24:56Z",
-                    "repository": {
-                        "nameWithOwner": "mdn/translated-content"
-                    },
-                    "merged": true,
-                    "mergedAt": "2025-02-11T08:06:58Z"
-                },
-                {
-                    "title": "[zh-CH]: translate HTTP Status 226",
-                    "url": "https://github.com/mdn/translated-content/pull/25840",
-                    "state": "CLOSED",
-                    "createdAt": "2025-02-11T06:02:36Z",
-                    "repository": {
-                        "nameWithOwner": "mdn/translated-content"
-                    },
-                    "merged": false,
-                    "mergedAt": null
-                },
-                {
-                    "title": "fix: zh-CN and ja missing performance timestamp diagram",
-                    "url": "https://github.com/mdn/translated-content/pull/25786",
-                    "state": "CLOSED",
-                    "createdAt": "2025-02-08T15:55:55Z",
-                    "repository": {
-                        "nameWithOwner": "mdn/translated-content"
-                    },
-                    "merged": false,
-                    "mergedAt": null
-                }
-            ],
             "close": 7,
             "merged": 95
         }
@@ -2794,6 +1670,1130 @@
             "totalCount": 41
         }
     },
+    "pullRequests": [
+        {
+            "title": "fix(ComponentLoader): add padding styles to ComponentLoader",
+            "url": "https://github.com/vuepont/ai-elements-vue/pull/111",
+            "state": "CLOSED",
+            "createdAt": "2025-12-15T03:13:08Z",
+            "repository": {
+                "nameWithOwner": "vuepont/ai-elements-vue"
+            },
+            "merged": false,
+            "mergedAt": null
+        },
+        {
+            "title": "Inital Project",
+            "url": "https://github.com/lonewolfyx-template/monorepo-template/pull/1",
+            "state": "MERGED",
+            "createdAt": "2025-12-13T16:15:23Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx-template/monorepo-template"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-13T16:15:34Z"
+        },
+        {
+            "title": "docs(cn): translate \"Vitest UI -> Module Graph\" content",
+            "url": "https://github.com/vitest-dev/docs-cn/pull/843",
+            "state": "MERGED",
+            "createdAt": "2025-12-12T14:22:22Z",
+            "repository": {
+                "nameWithOwner": "vitest-dev/docs-cn"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-13T05:41:42Z"
+        },
+        {
+            "title": "Inital Project",
+            "url": "https://github.com/ScaffoldCore/shadcn-vue-registry/pull/1",
+            "state": "MERGED",
+            "createdAt": "2025-12-05T13:21:03Z",
+            "repository": {
+                "nameWithOwner": "ScaffoldCore/shadcn-vue-registry"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-05T13:21:12Z"
+        },
+        {
+            "title": "chore(ci): add pr contributor welcome workflow",
+            "url": "https://github.com/vuepont/ai-elements-vue/pull/80",
+            "state": "CLOSED",
+            "createdAt": "2025-12-04T14:35:24Z",
+            "repository": {
+                "nameWithOwner": "vuepont/ai-elements-vue"
+            },
+            "merged": false,
+            "mergedAt": null
+        },
+        {
+            "title": "refactor(index-ui): update index ui",
+            "url": "https://github.com/lonewolfyx/sixninenine/pull/13",
+            "state": "MERGED",
+            "createdAt": "2025-12-04T07:43:26Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx/sixninenine"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-04T07:55:33Z"
+        },
+        {
+            "title": "docs(mocking-functions): update content title",
+            "url": "https://github.com/vitest-dev/docs-cn/pull/818",
+            "state": "MERGED",
+            "createdAt": "2025-12-04T02:07:07Z",
+            "repository": {
+                "nameWithOwner": "vitest-dev/docs-cn"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-04T02:17:11Z"
+        },
+        {
+            "title": "feat(shadcn-hub): add new registry Shadcn Ui Blocks",
+            "url": "https://github.com/lonewolfyx/shadcn-hub/pull/5",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T12:09:21Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx/shadcn-hub"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-03T12:27:11Z"
+        },
+        {
+            "title": "feat(shadcn-hub): add new registry Cult Ui",
+            "url": "https://github.com/lonewolfyx/shadcn-hub/pull/4",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T11:42:53Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx/shadcn-hub"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-03T12:26:39Z"
+        },
+        {
+            "title": "feat(shadcn-hub): add new registry Relume UI",
+            "url": "https://github.com/lonewolfyx/shadcn-hub/pull/3",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T11:36:46Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx/shadcn-hub"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-03T12:25:59Z"
+        },
+        {
+            "title": "feat(shadcn-hub): add registry Wickedblocks",
+            "url": "https://github.com/lonewolfyx/shadcn-hub/pull/2",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T11:17:14Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx/shadcn-hub"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-03T12:21:52Z"
+        },
+        {
+            "title": "feat(shadcn-hub): add new registry shadcnblock",
+            "url": "https://github.com/lonewolfyx/shadcn-hub/pull/1",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T11:06:43Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx/shadcn-hub"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-03T11:07:21Z"
+        },
+        {
+            "title": "chore(message): remove unnecessary type assertion on props.class",
+            "url": "https://github.com/vuepont/ai-elements-vue/pull/75",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T01:37:04Z",
+            "repository": {
+                "nameWithOwner": "vuepont/ai-elements-vue"
+            },
+            "merged": true,
+            "mergedAt": "2025-12-04T12:43:32Z"
+        },
+        {
+            "title": "feat: overview of open source projects in which members are involved",
+            "url": "https://github.com/lonewolfyx/sixninenine/pull/9",
+            "state": "MERGED",
+            "createdAt": "2025-11-26T11:26:08Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx/sixninenine"
+            },
+            "merged": true,
+            "mergedAt": "2025-11-26T11:31:20Z"
+        },
+        {
+            "title": "fix: user presentation and layout optimization under small media",
+            "url": "https://github.com/lonewolfyx/sixninenine/pull/7",
+            "state": "MERGED",
+            "createdAt": "2025-10-23T07:12:31Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx/sixninenine"
+            },
+            "merged": true,
+            "mergedAt": "2025-10-23T07:12:39Z"
+        },
+        {
+            "title": "feat: add `blogpost3` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/65",
+            "state": "MERGED",
+            "createdAt": "2025-10-09T12:05:42Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-11-03T01:20:12Z"
+        },
+        {
+            "title": "feat: add `stats2` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/64",
+            "state": "MERGED",
+            "createdAt": "2025-09-29T13:14:27Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-29T13:38:06Z"
+        },
+        {
+            "title": "feat: add `stats1` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/63",
+            "state": "MERGED",
+            "createdAt": "2025-09-29T13:14:22Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-29T13:37:56Z"
+        },
+        {
+            "title": "feat: add `blogpost2` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/62",
+            "state": "MERGED",
+            "createdAt": "2025-09-29T12:28:49Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-29T13:37:41Z"
+        },
+        {
+            "title": "feat: add `blogpost1` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/61",
+            "state": "MERGED",
+            "createdAt": "2025-09-29T12:21:37Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-29T12:22:55Z"
+        },
+        {
+            "title": "feat: add `community7` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/60",
+            "state": "MERGED",
+            "createdAt": "2025-09-28T13:29:43Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-28T13:30:26Z"
+        },
+        {
+            "title": "feat: add `community6` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/59",
+            "state": "MERGED",
+            "createdAt": "2025-09-28T13:20:26Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-28T13:30:16Z"
+        },
+        {
+            "title": "feat: add `community5` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/58",
+            "state": "MERGED",
+            "createdAt": "2025-09-28T13:11:54Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-28T13:30:02Z"
+        },
+        {
+            "title": "feat: add `community4` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/57",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T16:08:49Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T16:10:11Z"
+        },
+        {
+            "title": "feat: add `community3` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/56",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T15:49:16Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T16:10:01Z"
+        },
+        {
+            "title": "feat: add `community2` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/55",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T15:49:04Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T16:09:21Z"
+        },
+        {
+            "title": "feat: add `community1` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/54",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T15:30:28Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T15:31:27Z"
+        },
+        {
+            "title": "feat: add `CaseStudy3` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/53",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T14:19:18Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T14:20:19Z"
+        },
+        {
+            "title": "feat: add `CaseStudy2` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/52",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T12:56:29Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T14:20:14Z"
+        },
+        {
+            "title": "feat: add `CaseStudy1` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/51",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T12:37:38Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T12:37:48Z"
+        },
+        {
+            "title": "feat: add `banner6` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/50",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T08:10:13Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T08:11:16Z"
+        },
+        {
+            "title": "feat: add `banner5` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/49",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T08:01:20Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T08:11:07Z"
+        },
+        {
+            "title": "feat: add `banner4` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/48",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T07:49:02Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T08:10:58Z"
+        },
+        {
+            "title": "feat: add `banner3` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/47",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T07:49:00Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T08:10:48Z"
+        },
+        {
+            "title": "feat: add `banner2` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/46",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T07:39:52Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T08:10:39Z"
+        },
+        {
+            "title": "feat: add `banner1` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/45",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T07:26:16Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T07:26:21Z"
+        },
+        {
+            "title": "feat: add `login9` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/44",
+            "state": "MERGED",
+            "createdAt": "2025-09-27T06:53:18Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T06:54:08Z"
+        },
+        {
+            "title": "feat: add `login8` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/43",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T13:45:18Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T06:53:45Z"
+        },
+        {
+            "title": "feat: add `login7` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/42",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T13:44:02Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-27T06:53:53Z"
+        },
+        {
+            "title": "feat: add `login6` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/41",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T12:51:11Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-26T12:53:35Z"
+        },
+        {
+            "title": "feat: add `login5` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/40",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T12:44:42Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-26T12:53:26Z"
+        },
+        {
+            "title": "feat: add `login4` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/39",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T12:44:23Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-26T12:52:44Z"
+        },
+        {
+            "title": "feat: add `login3` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/38",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T12:33:25Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-26T12:52:24Z"
+        },
+        {
+            "title": "feat: add `login2` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/37",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T11:48:31Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-26T11:49:03Z"
+        },
+        {
+            "title": "feat: add `login1` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/36",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T11:10:57Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-26T11:11:38Z"
+        },
+        {
+            "title": "feat: add `logo16` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/35",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T03:07:28Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-26T03:11:14Z"
+        },
+        {
+            "title": "fix(docs): correct typo in ForExample by adding space",
+            "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/764",
+            "state": "MERGED",
+            "createdAt": "2025-09-24T05:05:37Z",
+            "repository": {
+                "nameWithOwner": "vitest-dev/eslint-plugin-vitest"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-24T11:50:10Z"
+        },
+        {
+            "title": "fix(docs): Fix syntax errors padding-around-test-blocks.md",
+            "url": "https://github.com/vitest-dev/eslint-plugin-vitest/pull/762",
+            "state": "MERGED",
+            "createdAt": "2025-09-24T04:49:50Z",
+            "repository": {
+                "nameWithOwner": "vitest-dev/eslint-plugin-vitest"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-24T11:49:43Z"
+        },
+        {
+            "title": "feat: add `logo15` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/33",
+            "state": "MERGED",
+            "createdAt": "2025-09-23T07:34:22Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-26T03:10:49Z"
+        },
+        {
+            "title": "feat: add `logo14` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/32",
+            "state": "MERGED",
+            "createdAt": "2025-09-23T07:17:42Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-26T03:10:34Z"
+        },
+        {
+            "title": "feat: add `logo13` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/31",
+            "state": "MERGED",
+            "createdAt": "2025-09-21T14:50:56Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-22T09:09:12Z"
+        },
+        {
+            "title": "feat: add `logo12` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/30",
+            "state": "MERGED",
+            "createdAt": "2025-09-21T14:31:53Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-22T09:08:55Z"
+        },
+        {
+            "title": "feat: add `logo11` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/29",
+            "state": "MERGED",
+            "createdAt": "2025-09-21T14:25:39Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-22T09:08:39Z"
+        },
+        {
+            "title": "feat: add `logo10` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/28",
+            "state": "MERGED",
+            "createdAt": "2025-09-20T14:50:08Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-22T09:07:59Z"
+        },
+        {
+            "title": "feat: add `logo9` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/27",
+            "state": "MERGED",
+            "createdAt": "2025-09-20T09:49:58Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-22T09:07:45Z"
+        },
+        {
+            "title": "feat: add `logo8` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/26",
+            "state": "MERGED",
+            "createdAt": "2025-09-20T05:17:14Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-22T09:07:29Z"
+        },
+        {
+            "title": "feat: add `logo7` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/25",
+            "state": "MERGED",
+            "createdAt": "2025-09-20T05:06:45Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-22T09:07:16Z"
+        },
+        {
+            "title": "feat: add `logo6` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/23",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T12:41:08Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T12:44:30Z"
+        },
+        {
+            "title": "feat: add `logo5` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/22",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T12:30:37Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T12:44:16Z"
+        },
+        {
+            "title": "feat: add `logo4` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/21",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T12:19:09Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T12:44:00Z"
+        },
+        {
+            "title": "feat: add `logo3` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/20",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T12:11:40Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T12:43:01Z"
+        },
+        {
+            "title": "feat: add `logo2` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/19",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T09:30:59Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T12:42:31Z"
+        },
+        {
+            "title": "feat: add `integration4` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/18",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T08:34:59Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T08:36:51Z"
+        },
+        {
+            "title": "fix(registry): data synchronization issues caused by canceling import cache reads",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/17",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T07:42:34Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T07:42:56Z"
+        },
+        {
+            "title": "feat: add `integration3` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/16",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T05:51:15Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T05:51:45Z"
+        },
+        {
+            "title": "fix: registry development mode file overwriting",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/15",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T05:16:25Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T05:17:01Z"
+        },
+        {
+            "title": "feat: add `integration2` block",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/14",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T03:23:30Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-19T05:17:33Z"
+        },
+        {
+            "title": "feat: add Documentation",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/13",
+            "state": "MERGED",
+            "createdAt": "2025-09-17T13:56:09Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-17T13:56:42Z"
+        },
+        {
+            "title": "refactor: blocks and menus construction",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/10",
+            "state": "MERGED",
+            "createdAt": "2025-09-12T11:08:09Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-13T08:18:41Z"
+        },
+        {
+            "title": "fix: sort directory/file entries alphabetically",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/9",
+            "state": "MERGED",
+            "createdAt": "2025-09-12T07:03:37Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-12T07:03:49Z"
+        },
+        {
+            "title": "fix: rename vitePluginMenus to virtualMenus",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/8",
+            "state": "MERGED",
+            "createdAt": "2025-09-12T06:34:58Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-12T06:36:54Z"
+        },
+        {
+            "title": "refactor: move common functions to share/utils",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/7",
+            "state": "MERGED",
+            "createdAt": "2025-09-12T06:16:40Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-12T06:17:37Z"
+        },
+        {
+            "title": "feat: add `Team11` blocks",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/6",
+            "state": "MERGED",
+            "createdAt": "2025-09-12T01:43:08Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-12T01:45:32Z"
+        },
+        {
+            "title": "style: adjust title layout and positioning",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/3",
+            "state": "MERGED",
+            "createdAt": "2025-09-09T06:03:17Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-09T06:04:59Z"
+        },
+        {
+            "title": "refactor(ui): homepage layout with new design",
+            "url": "https://github.com/vue-blocks/vue-blocks/pull/2",
+            "state": "MERGED",
+            "createdAt": "2025-09-08T08:26:40Z",
+            "repository": {
+                "nameWithOwner": "vue-blocks/vue-blocks"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-08T08:27:06Z"
+        },
+        {
+            "title": "fix(ci): install pnpm in GitHub Actions workflow",
+            "url": "https://github.com/Auto-Plugin/milkup/pull/64",
+            "state": "MERGED",
+            "createdAt": "2025-09-05T06:16:04Z",
+            "repository": {
+                "nameWithOwner": "Auto-Plugin/milkup"
+            },
+            "merged": true,
+            "mergedAt": "2025-09-05T09:59:34Z"
+        },
+        {
+            "title": "fix(ci): install pnpm in GitHub Actions workflow",
+            "url": "https://github.com/Auto-Plugin/milkup/pull/63",
+            "state": "CLOSED",
+            "createdAt": "2025-09-04T13:23:24Z",
+            "repository": {
+                "nameWithOwner": "Auto-Plugin/milkup"
+            },
+            "merged": false,
+            "mergedAt": null
+        },
+        {
+            "title": "fix(ci) : Correct the incorrect address that causes image loading in …",
+            "url": "https://github.com/Auto-Plugin/milkup/pull/57",
+            "state": "MERGED",
+            "createdAt": "2025-08-27T01:23:01Z",
+            "repository": {
+                "nameWithOwner": "Auto-Plugin/milkup"
+            },
+            "merged": true,
+            "mergedAt": "2025-08-27T03:06:49Z"
+        },
+        {
+            "title": "ci: add comment on PR merge workflow",
+            "url": "https://github.com/Auto-Plugin/milkup/pull/56",
+            "state": "MERGED",
+            "createdAt": "2025-08-26T12:47:54Z",
+            "repository": {
+                "nameWithOwner": "Auto-Plugin/milkup"
+            },
+            "merged": true,
+            "mergedAt": "2025-08-27T01:16:31Z"
+        },
+        {
+            "title": "Master",
+            "url": "https://github.com/lonewolfyx-template/nuxt-websocket-template/pull/1",
+            "state": "MERGED",
+            "createdAt": "2025-08-25T14:46:26Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx-template/nuxt-websocket-template"
+            },
+            "merged": true,
+            "mergedAt": "2025-08-25T14:46:35Z"
+        },
+        {
+            "title": "Initial project",
+            "url": "https://github.com/lonewolfyx-template/ts-lib-template/pull/1",
+            "state": "MERGED",
+            "createdAt": "2025-08-24T12:23:06Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx-template/ts-lib-template"
+            },
+            "merged": true,
+            "mergedAt": "2025-08-24T12:23:12Z"
+        },
+        {
+            "title": "fix: 优化 GIthub Actions 版本发布",
+            "url": "https://github.com/Auto-Plugin/milkup/pull/53",
+            "state": "MERGED",
+            "createdAt": "2025-08-20T13:45:42Z",
+            "repository": {
+                "nameWithOwner": "Auto-Plugin/milkup"
+            },
+            "merged": true,
+            "mergedAt": "2025-08-21T03:16:40Z"
+        },
+        {
+            "title": "init cli-template",
+            "url": "https://github.com/lonewolfyx-template/cli-template/pull/1",
+            "state": "MERGED",
+            "createdAt": "2025-08-14T08:17:54Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx-template/cli-template"
+            },
+            "merged": true,
+            "mergedAt": "2025-08-14T08:18:15Z"
+        },
+        {
+            "title": "feat: add git release workflow template",
+            "url": "https://github.com/lonewolfyx-template/git-yaml-template/pull/1",
+            "state": "MERGED",
+            "createdAt": "2025-08-14T07:26:23Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx-template/git-yaml-template"
+            },
+            "merged": true,
+            "mergedAt": "2025-08-14T07:26:36Z"
+        },
+        {
+            "title": "feat: add 渡一前端代码优化CodeReview、 渡一前端讲书频道",
+            "url": "https://github.com/lonewolfyx/awesome-duyi/pull/1",
+            "state": "MERGED",
+            "createdAt": "2025-08-13T12:51:32Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx/awesome-duyi"
+            },
+            "merged": true,
+            "mergedAt": "2025-08-13T12:51:40Z"
+        },
+        {
+            "title": "feat: add CONTRIBUTING.md",
+            "url": "https://github.com/lonewolfyx-template/-.md-template/pull/1",
+            "state": "MERGED",
+            "createdAt": "2025-08-11T14:21:49Z",
+            "repository": {
+                "nameWithOwner": "lonewolfyx-template/-.md-template"
+            },
+            "merged": true,
+            "mergedAt": "2025-08-11T14:21:58Z"
+        },
+        {
+            "title": "feat: Add `Escape` keyboard to close the `DataModuleDetailsLoader` or `DataAssetDetailsLoader`",
+            "url": "https://github.com/vitejs/devtools/pull/44",
+            "state": "MERGED",
+            "createdAt": "2025-07-17T16:00:13Z",
+            "repository": {
+                "nameWithOwner": "vitejs/devtools"
+            },
+            "merged": true,
+            "mergedAt": "2025-07-17T23:39:14Z"
+        },
+        {
+            "title": "feat: add click event on FlowmapNode to toggle",
+            "url": "https://github.com/vitejs/devtools/pull/36",
+            "state": "MERGED",
+            "createdAt": "2025-07-16T05:58:06Z",
+            "repository": {
+                "nameWithOwner": "vitejs/devtools"
+            },
+            "merged": true,
+            "mergedAt": "2025-07-17T00:37:57Z"
+        },
+        {
+            "title": "fix(ui): prevent diff highlight from affecting line number gutter in CodeMirror",
+            "url": "https://github.com/vitejs/devtools/pull/23",
+            "state": "CLOSED",
+            "createdAt": "2025-07-14T06:22:09Z",
+            "repository": {
+                "nameWithOwner": "vitejs/devtools"
+            },
+            "merged": false,
+            "mergedAt": null
+        },
+        {
+            "title": "fix: move watch out of onMounted for immediate execution",
+            "url": "https://github.com/vitejs/devtools/pull/22",
+            "state": "CLOSED",
+            "createdAt": "2025-07-14T02:28:49Z",
+            "repository": {
+                "nameWithOwner": "vitejs/devtools"
+            },
+            "merged": false,
+            "mergedAt": null
+        },
+        {
+            "title": "chore(package): add homepage and bugs fields",
+            "url": "https://github.com/inkart-cli/inkart/pull/32",
+            "state": "MERGED",
+            "createdAt": "2025-06-12T01:53:54Z",
+            "repository": {
+                "nameWithOwner": "inkart-cli/inkart"
+            },
+            "merged": true,
+            "mergedAt": "2025-06-12T05:19:28Z"
+        },
+        {
+            "title": "feat: add search command",
+            "url": "https://github.com/inkart-cli/inkart/pull/31",
+            "state": "MERGED",
+            "createdAt": "2025-06-11T16:34:39Z",
+            "repository": {
+                "nameWithOwner": "inkart-cli/inkart"
+            },
+            "merged": true,
+            "mergedAt": "2025-06-12T05:19:10Z"
+        },
+        {
+            "title": "refactor: centralize paths and reusable methods",
+            "url": "https://github.com/inkart-cli/inkart/pull/24",
+            "state": "MERGED",
+            "createdAt": "2025-06-10T07:31:11Z",
+            "repository": {
+                "nameWithOwner": "inkart-cli/inkart"
+            },
+            "merged": true,
+            "mergedAt": "2025-06-10T08:28:13Z"
+        },
+        {
+            "title": "chore: update .gitignore to exclude log files",
+            "url": "https://github.com/inkart-cli/inkart/pull/23",
+            "state": "MERGED",
+            "createdAt": "2025-06-10T06:58:18Z",
+            "repository": {
+                "nameWithOwner": "inkart-cli/inkart"
+            },
+            "merged": true,
+            "mergedAt": "2025-06-10T08:26:50Z"
+        },
+        {
+            "title": "fix: correct the template and prompts name",
+            "url": "https://github.com/inkart-cli/inkart/pull/20",
+            "state": "MERGED",
+            "createdAt": "2025-06-10T02:38:36Z",
+            "repository": {
+                "nameWithOwner": "inkart-cli/inkart"
+            },
+            "merged": true,
+            "mergedAt": "2025-06-10T05:02:20Z"
+        },
+        {
+            "title": "fix: correct bin field in package.json to properly expose CLI command",
+            "url": "https://github.com/inkart-cli/inkart/pull/19",
+            "state": "MERGED",
+            "createdAt": "2025-06-10T02:29:43Z",
+            "repository": {
+                "nameWithOwner": "inkart-cli/inkart"
+            },
+            "merged": true,
+            "mergedAt": "2025-06-10T05:23:09Z"
+        },
+        {
+            "title": "fix: optimize module reading",
+            "url": "https://github.com/inkart-cli/inkart/pull/17",
+            "state": "MERGED",
+            "createdAt": "2025-06-03T13:37:13Z",
+            "repository": {
+                "nameWithOwner": "inkart-cli/inkart"
+            },
+            "merged": true,
+            "mergedAt": "2025-06-03T13:53:15Z"
+        },
+        {
+            "title": "[zh-CN]: add translation for http status 226",
+            "url": "https://github.com/mdn/translated-content/pull/26149",
+            "state": "MERGED",
+            "createdAt": "2025-03-04T03:14:32Z",
+            "repository": {
+                "nameWithOwner": "mdn/translated-content"
+            },
+            "merged": true,
+            "mergedAt": "2025-03-06T07:37:44Z"
+        },
+        {
+            "title": "[zh-cn] update the translation of `PerformanceResourceTiming`",
+            "url": "https://github.com/mdn/translated-content/pull/25890",
+            "state": "MERGED",
+            "createdAt": "2025-02-14T08:03:11Z",
+            "repository": {
+                "nameWithOwner": "mdn/translated-content"
+            },
+            "merged": true,
+            "mergedAt": "2025-03-01T04:38:30Z"
+        },
+        {
+            "title": "[zh-CN]: update performance timestamp diagram link",
+            "url": "https://github.com/mdn/translated-content/pull/25842",
+            "state": "MERGED",
+            "createdAt": "2025-02-11T07:24:56Z",
+            "repository": {
+                "nameWithOwner": "mdn/translated-content"
+            },
+            "merged": true,
+            "mergedAt": "2025-02-11T08:06:58Z"
+        },
+        {
+            "title": "[zh-CH]: translate HTTP Status 226",
+            "url": "https://github.com/mdn/translated-content/pull/25840",
+            "state": "CLOSED",
+            "createdAt": "2025-02-11T06:02:36Z",
+            "repository": {
+                "nameWithOwner": "mdn/translated-content"
+            },
+            "merged": false,
+            "mergedAt": null
+        },
+        {
+            "title": "fix: zh-CN and ja missing performance timestamp diagram",
+            "url": "https://github.com/mdn/translated-content/pull/25786",
+            "state": "CLOSED",
+            "createdAt": "2025-02-08T15:55:55Z",
+            "repository": {
+                "nameWithOwner": "mdn/translated-content"
+            },
+            "merged": false,
+            "mergedAt": null
+        }
+    ],
     "languages": [
         {
             "name": "Vue",
@@ -2847,9 +2847,9 @@
     ],
     "longestCommitStreak": 360,
     "longestNoContributionStreak": {
-        "days": 5,
-        "startDate": "2025-12-27",
-        "endDate": "2025-12-31"
+        "days": 0,
+        "startDate": "",
+        "endDate": ""
     },
     "mostActiveStats": {
         "mostActiveMonth": {
@@ -2907,7 +2907,7 @@
             },
             {
                 "month": "Dec",
-                "totalContributions": 1671
+                "totalContributions": 1672
             }
         ]
     },
@@ -2959,14 +2959,14 @@
             },
             {
                 "month": "Dec",
-                "totalContributions": 1671
+                "totalContributions": 1672
             }
         ],
-        "averagePerMonth": 1519.6666666666667
+        "averagePerMonth": 1519.75
     },
     "weekendContributionStats": {
         "contributedDays": 102,
-        "noContributionDays": 2,
+        "noContributionDays": 0,
         "contributedDates": [
             "2025-01-04",
             "2025-01-05",
@@ -3071,31 +3071,28 @@
             "2025-12-20",
             "2025-12-21"
         ],
-        "noContributionDates": [
-            "2025-12-27",
-            "2025-12-28"
-        ]
+        "noContributionDates": []
     },
     "weeklyAverageContribution": [
         {
             "day": "Sunday",
             "totalContributions": 2442,
-            "averagePerWeek": 47
+            "averagePerWeek": 48
         },
         {
             "day": "Monday",
             "totalContributions": 2587,
-            "averagePerWeek": 50
+            "averagePerWeek": 51
         },
         {
             "day": "Tuesday",
             "totalContributions": 2563,
-            "averagePerWeek": 49
+            "averagePerWeek": 50
         },
         {
             "day": "Wednesday",
             "totalContributions": 2704,
-            "averagePerWeek": 51
+            "averagePerWeek": 52
         },
         {
             "day": "Thursday",
@@ -3104,13 +3101,13 @@
         },
         {
             "day": "Friday",
-            "totalContributions": 2746,
+            "totalContributions": 2747,
             "averagePerWeek": 53
         },
         {
             "day": "Saturday",
             "totalContributions": 2516,
-            "averagePerWeek": 48
+            "averagePerWeek": 49
         }
     ],
     "contributions": [
@@ -4911,33 +4908,8 @@
         },
         {
             "date": "2025-12-26",
-            "contributionCount": 29,
+            "contributionCount": 30,
             "weekday": 5
-        },
-        {
-            "date": "2025-12-27",
-            "contributionCount": 0,
-            "weekday": 6
-        },
-        {
-            "date": "2025-12-28",
-            "contributionCount": 0,
-            "weekday": 0
-        },
-        {
-            "date": "2025-12-29",
-            "contributionCount": 0,
-            "weekday": 1
-        },
-        {
-            "date": "2025-12-30",
-            "contributionCount": 0,
-            "weekday": 2
-        },
-        {
-            "date": "2025-12-31",
-            "contributionCount": 0,
-            "weekday": 3
         }
     ]
 }
