@@ -21,8 +21,8 @@
                             stroke-width="12"
                         />
                         <circle
-                            :stroke-dasharray="`${(123 / 9999999) * 352} 352`"
-                            class="text-green-600"
+                            :stroke-dasharray="strokeDasharray"
+                            class="text-pink-600"
                             cx="55"
                             cy="55"
                             fill="transparent"
@@ -36,7 +36,7 @@
                         class="absolute flex flex-col items-center justify-center text-center"
                     >
                         <span class="base-text">
-                            123
+                            {{ used }}
                         </span>
                         <span class="text-xs md:text-sm text-muted-foreground">
                             Total
@@ -49,7 +49,15 @@
 </template>
 
 <script lang="ts" setup>
+import { getStrokeDasharray } from '.'
+
 defineOptions({
     name: 'GithubTotalIssues',
 })
+
+// 关闭的数量
+const close = 20
+const total = 329
+const used = computed(() => total - close)
+const strokeDasharray = computed(() => getStrokeDasharray(used.value, total, 45))
 </script>
