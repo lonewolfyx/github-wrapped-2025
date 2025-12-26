@@ -49,6 +49,12 @@ export interface ContributionDay {
     contributionCount: number
 }
 
+export interface IContributions {
+    date: string
+    contributionCount: number
+    weekday: number
+}
+
 export interface INoContributionStreak {
     /** 连续没有贡献的总天数 */
     days: number
@@ -186,5 +192,19 @@ export interface IGithubGraphData {
     user: IUser
     total: ITotal
     issues: IIssuesNode[]
+    repository: {
+        repositories: {
+            nodes: IRepository[]
+            totalCount: number
+        }
+    }
     pullRequests: IPullRequestNode[]
+    languages: IRepoTopsLanguages[] | []
+    longestCommitStreak: number
+    longestNoContributionStreak: INoContributionStreak
+    mostActiveStats: IMostActiveStats
+    monthlyAverageContribution: IMonthlyAverageContribution
+    weekendContributionStats: IWeekendContributionStats
+    weeklyAverageContribution: IWeeklyContribution[]
+    contributions: IContributions[]
 }
