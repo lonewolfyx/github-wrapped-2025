@@ -25,6 +25,7 @@ export const summarizeRepoLanguages = (repos: IRepository[]): IRepoTopsLanguages
                 color: edge.node.color,
                 size: 0,
                 repoCount: 0,
+                progress: 0,
             }
 
             entry.size += edge.size
@@ -44,6 +45,6 @@ export const summarizeRepoLanguages = (repos: IRepository[]): IRepoTopsLanguages
         .sort((a, b) => b.size - a.size)
         .map(l => ({
             ...l,
-            progress: ((l.size / totalSize) * 100).toFixed(2),
+            progress: Number(((l.size / totalSize) * 100).toFixed(2)),
         }))
 }
