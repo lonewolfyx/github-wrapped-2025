@@ -25,7 +25,7 @@
                             </TooltipTrigger>
                             <TooltipContent>
                                 <p>
-                                    {{ getContributionCount(cell.date) }}contributions on
+                                    {{ getContributionCount(cell.date) }} contributions on
                                     {{ dayjs(cell.date).format('MMMM DD') }}
                                 </p>
                             </TooltipContent>
@@ -97,9 +97,9 @@ const getCellClass = (count: number): string => {
     // Level 4: (75%, 100%]
     const step = max / 4
 
-    if (count <= step) return 'bg-slate-200' // 浅色
+    if (count <= step) return 'bg-green-900' // 浅色
     if (count <= step * 2) return 'bg-slate-400' // 中浅
-    if (count <= step * 3) return 'bg-slate-600' // 中深
-    return 'bg-slate-800' // 最深
+    if (count <= step * 3) return 'bg-slate-500' // 中深
+    return 'bg-red-800' // 最深
 }
 </script>
