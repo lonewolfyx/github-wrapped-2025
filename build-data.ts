@@ -9,6 +9,7 @@ import { getLongestNoContributionStreak } from './app/lib/longest.no.contributio
 import { getWeekendContributionStats, getWeeklyAverageContribution } from './app/lib/weeks'
 import { getMonthlyAverageContribution, getMostActiveContributionStats } from './app/lib/month'
 import { getPullRequests } from './app/lib/pull.requests'
+import dayjs from 'dayjs'
 
 dotenv.config({ path: resolve(process.cwd(), './.env') })
 
@@ -83,7 +84,7 @@ const repositoryQuery = `# 个人仓库
 
 const contributionQuery = `contributionsCollection(
             from: "2025-01-01T00:00:00Z"
-            to: "2025-12-31T23:59:59Z"
+            to: "2025-12-${dayjs().date()}T23:59:59Z"
         ) {
             contributionCalendar { # 贡献日历
                 weeks { # 按照周分组
