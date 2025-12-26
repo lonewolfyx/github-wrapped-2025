@@ -36,7 +36,7 @@
                         class="absolute flex flex-col items-center justify-center text-center"
                     >
                         <span class="base-text">
-                            {{ used }}
+                            {{ total.issues.total }}
                         </span>
                         <span class="text-xs md:text-sm text-muted-foreground">
                             Total
