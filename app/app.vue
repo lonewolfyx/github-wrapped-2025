@@ -14,7 +14,7 @@
                     )"
                 >Github Wrapped 2025</span>
             </div>
-            <div class="flex-1 overflow-hidden">
+            <GithubContainer>
                 <div class="flex h-full flex-col space-y-4 pb-4">
                     <SiteHeader />
                     <div class="flex-1 overflow-hidden">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </GithubContainer>
             <SiteFooter />
         </div>
     </SiteBody>

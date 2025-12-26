@@ -1,3 +1,6 @@
+import { createContext } from 'reka-ui'
+
+export { default as GithubContainer } from './GithubContainer.vue'
 export { default as GithubAverageCommitsPerWeek } from './GithubAverageCommitsPerWeek.vue'
 export { default as GithubCommitsTotal } from './GithubCommitsTotal.vue'
 export { default as GithubContributionGraphBlocks } from './GithubContributionGraphBlocks.vue'
@@ -13,3 +16,5 @@ export { default as GithubTopRepository } from './GithubTopRepository.vue'
 export { default as GithubTotalIssues } from './GithubTotalIssues.vue'
 export { default as GithubWeekendActivity } from './GithubWeekendActivity.vue'
 export { default as GithubTopRepositoryItems } from './GithubTopRepositoryItems.vue'
+
+export const [providerGithubData, useGithubData] = createContext<any>('GithubData')
