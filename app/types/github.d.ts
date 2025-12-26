@@ -175,10 +175,16 @@ export interface ITotal {
         total: number
         closed: number
     }
-    pullRequests: number
+    pullRequests: {
+        total: number
+        close: number
+        merged: number
+    }
 }
 
 export interface IGithubGraphData {
     user: IUser
     total: ITotal
+    issues: IIssuesNode[]
+    pullRequests: IPullRequestNode[]
 }

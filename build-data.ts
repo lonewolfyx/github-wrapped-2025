@@ -8,6 +8,7 @@ import { getLongestCommitStreak } from './app/lib/longest.commit.streak'
 import { getLongestNoContributionStreak } from './app/lib/longest.no.contribution.streak'
 import { getWeekendContributionStats, getWeeklyAverageContribution } from './app/lib/weeks'
 import { getMonthlyAverageContribution, getMostActiveContributionStats } from './app/lib/month'
+import { getPullRequests } from './app/lib/pull.requests'
 
 dotenv.config({ path: resolve(process.cwd(), './.env') })
 
@@ -124,11 +125,12 @@ interface ContributionDay {
     const params = {
         login: user,
     }
-    const [userinfo, repository, contributions, issues] = await Promise.all([
+    const [userinfo, repository, contributions, issues, pullrequest] = await Promise.all([
         await fetchGithubData(user, createQuery(userInfoQuery), params),
         await fetchGithubData(user, createQuery(repositoryQuery), params),
         await fetchGithubData(user, createQuery(contributionQuery), params),
         await getIssuesStatistics(user),
+        await getPullRequests(user),
     ])
     // console.log(contributions)
 
@@ -155,11 +157,16 @@ interface ContributionDay {
                 closed: issues.closed,
             },
             // 创建的 pr 数
-            pullRequests: contributions.contributionsCollection.totalPullRequestContributions,
+            pullRequests: {
+                total: contributions.contributionsCollection.totalPullRequestContributions,
+                close: pullrequest.closed,
+                merged: pullrequest.merged,
+            },
         },
         // issues
         issues: issues.issues,
         repository,
+        pullRequests: pullrequest.prs,
         // 热门语言排行
         languages: summarizeRepoLanguages(repository?.repositories?.nodes ?? []),
         // 连续提交天数
