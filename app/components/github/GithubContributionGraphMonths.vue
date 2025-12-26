@@ -14,28 +14,23 @@
                     :config="chartConfig"
                     class="h-28"
                 >
-                    <VisXYContainer
-                        :data="chartData"
-                    >
+                    <VisXYContainer :data="monthlyAverageContribution.monthlyStats">
                         <VisStackedBar
                             :bar-width="15"
-                            :color="chartConfig.desktop.color"
+                            :color="chartConfig.totalContributions.color"
                             :rounded-corners="25"
-                            :x="(d: Data) => d.date"
-                            :y="(d: Data) => d.desktop"
+                            :x="(_: IMonthlyContribution, i:number) => i"
+                            :y="(d: IMonthlyContribution) => d.totalContributions"
                         />
                         <VisAxis
                             :domain-line="false"
                             :grid-line="false"
-                            :tick-format="(d: number) => {
-                                const date = new Date(d)
-                                // return date.toLocaleDateString('en-US', {
-                                //     month: 'short',
-                                // })
-                                return '一月'
+                            :num-ticks="6"
+                            :tick-format="(_:any, i:number) => {
+                                return monthlyAverageContribution.monthlyStats[i] && monthlyAverageContribution.monthlyStats[i].month
                             }"
                             :tick-line="false"
-                            :tick-values="chartData.map(d => d.date)"
+                            :x="(_: any, i:number) => i"
                             type="x"
                         />
                         <ChartTooltip />
@@ -60,31 +55,17 @@ import {
     componentToString,
 } from '~/components/ui/chart'
 import { VisAxis, VisStackedBar, VisXYContainer } from '@unovis/vue'
+import { useGithubData } from '~/components/github/index'
+import type { IMonthlyContribution } from '~/types/github'
 
 defineOptions({
     name: 'GithubContributionGraphMonths',
 })
-
-const chartData = [
-    { date: new Date('2024-01-01'), desktop: 186 },
-    { date: new Date('2024-02-01'), desktop: 305 },
-    { date: new Date('2024-03-01'), desktop: 237 },
-    { date: new Date('2024-04-01'), desktop: 73 },
-    { date: new Date('2024-05-01'), desktop: 209 },
-    { date: new Date('2024-06-01'), desktop: 214 },
-    { date: new Date('2024-07-01'), desktop: 186 },
-    { date: new Date('2024-08-01'), desktop: 305 },
-    { date: new Date('2024-09-01'), desktop: 237 },
-    { date: new Date('2024-10-01'), desktop: 73 },
-    { date: new Date('2024-11-01'), desktop: 209 },
-    { date: new Date('2024-12-01'), desktop: 214 },
-]
-
-type Data = typeof chartData[number]
+const { monthlyAverageContribution } = useGithubData()
 
 const chartConfig = {
-    desktop: {
-        label: 'Desktop',
+    totalContributions: {
+        label: 'Contributions:',
         color: 'var(--chart-1)',
     },
 } satisfies ChartConfig
