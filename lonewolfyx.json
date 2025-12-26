@@ -14,11 +14,12 @@
         }
     },
     "total": {
-        "contributions": 18237,
+        "contributions": 18292,
         "stars": 165,
-        "commits": 2908,
+        "commits": 2974,
         "issues": {
             "total": 5,
+            "opened": 0,
             "closed": 4
         },
         "pullRequests": {
@@ -942,6 +943,62 @@
                     }
                 },
                 {
+                    "name": "github-wrapped-2025",
+                    "description": "A beautiful and interactive GitHub Wrapped 2025 dashboard that visualizes your annual coding statistics, including commits, contributions, languages, repositories, and activity patterns.",
+                    "nameWithOwner": "lonewolfyx/github-wrapped-2025",
+                    "url": "https://github.com/lonewolfyx/github-wrapped-2025",
+                    "stargazerCount": 0,
+                    "forkCount": 0,
+                    "forks": {
+                        "totalCount": 0
+                    },
+                    "pullRequests": {
+                        "totalCount": 0
+                    },
+                    "issues": {
+                        "totalCount": 0
+                    },
+                    "createdAt": "2025-12-25T15:17:57Z",
+                    "primaryLanguage": {
+                        "name": "Vue",
+                        "color": "#41b883"
+                    },
+                    "licenseInfo": null,
+                    "languages": {
+                        "edges": [
+                            {
+                                "size": 52139,
+                                "node": {
+                                    "color": "#41b883",
+                                    "name": "Vue"
+                                }
+                            },
+                            {
+                                "size": 27605,
+                                "node": {
+                                    "color": "#3178c6",
+                                    "name": "TypeScript"
+                                }
+                            },
+                            {
+                                "size": 4824,
+                                "node": {
+                                    "color": "#663399",
+                                    "name": "CSS"
+                                }
+                            },
+                            {
+                                "size": 1256,
+                                "node": {
+                                    "color": "#f1e05a",
+                                    "name": "JavaScript"
+                                }
+                            }
+                        ],
+                        "totalCount": 4
+                    }
+                },
+                {
                     "name": "create",
                     "description": "Command-line for creating projects from templates",
                     "nameWithOwner": "lonewolfyx/create",
@@ -1637,37 +1694,9 @@
                         ],
                         "totalCount": 4
                     }
-                },
-                {
-                    "name": "CodeFlux",
-                    "description": "Next generation FE Online Tools",
-                    "nameWithOwner": "lonewolfyx/CodeFlux",
-                    "url": "https://github.com/lonewolfyx/CodeFlux",
-                    "stargazerCount": 0,
-                    "forkCount": 1,
-                    "forks": {
-                        "totalCount": 1
-                    },
-                    "pullRequests": {
-                        "totalCount": 0
-                    },
-                    "issues": {
-                        "totalCount": 0
-                    },
-                    "createdAt": "2024-12-05T09:29:15Z",
-                    "primaryLanguage": null,
-                    "licenseInfo": {
-                        "spdxId": "Apache-2.0",
-                        "name": "Apache License 2.0",
-                        "key": "apache-2.0"
-                    },
-                    "languages": {
-                        "edges": [],
-                        "totalCount": 0
-                    }
                 }
             ],
-            "totalCount": 41
+            "totalCount": 42
         }
     },
     "pullRequests": [
@@ -2798,51 +2827,51 @@
         {
             "name": "Vue",
             "color": "#41b883",
-            "size": 929053,
-            "repoCount": 17,
-            "progress": "57.19"
+            "size": 981192,
+            "repoCount": 18,
+            "progress": 57.37
         },
         {
             "name": "TypeScript",
             "color": "#3178c6",
-            "size": 504087,
-            "repoCount": 24,
-            "progress": "31.03"
+            "size": 531692,
+            "repoCount": 25,
+            "progress": 31.09
         },
         {
             "name": "JavaScript",
             "color": "#f1e05a",
-            "size": 99416,
-            "repoCount": 27,
-            "progress": "6.12"
+            "size": 100672,
+            "repoCount": 28,
+            "progress": 5.89
         },
         {
             "name": "CSS",
             "color": "#663399",
-            "size": 83964,
-            "repoCount": 18,
-            "progress": "5.17"
+            "size": 88788,
+            "repoCount": 19,
+            "progress": 5.19
         },
         {
             "name": "SCSS",
             "color": "#c6538c",
             "size": 4924,
             "repoCount": 3,
-            "progress": "0.30"
+            "progress": 0.29
         },
         {
             "name": "HTML",
             "color": "#e34c26",
             "size": 2210,
             "repoCount": 7,
-            "progress": "0.14"
+            "progress": 0.13
         },
         {
             "name": "Shell",
             "color": "#89e051",
             "size": 738,
             "repoCount": 2,
-            "progress": "0.05"
+            "progress": 0.04
         }
     ],
     "longestCommitStreak": 360,
@@ -2907,7 +2936,7 @@
             },
             {
                 "month": "Dec",
-                "totalContributions": 1672
+                "totalContributions": 1727
             }
         ]
     },
@@ -2959,10 +2988,10 @@
             },
             {
                 "month": "Dec",
-                "totalContributions": 1672
+                "totalContributions": 1727
             }
         ],
-        "averagePerMonth": 1519.75
+        "averagePerMonth": 1524.3333333333333
     },
     "weekendContributionStats": {
         "contributedDays": 102,
@@ -3101,8 +3130,8 @@
         },
         {
             "day": "Friday",
-            "totalContributions": 2747,
-            "averagePerWeek": 53
+            "totalContributions": 2802,
+            "averagePerWeek": 54
         },
         {
             "day": "Saturday",
@@ -4908,7 +4937,7 @@
         },
         {
             "date": "2025-12-26",
-            "contributionCount": 30,
+            "contributionCount": 85,
             "weekday": 5
         }
     ]

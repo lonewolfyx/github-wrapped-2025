@@ -22,7 +22,8 @@
         "postinstall": "nuxt prepare",
         "typecheck": "nuxt typecheck",
         "lint": "eslint .",
-        "lint:fix": "eslint --fix"
+        "lint:fix": "eslint --fix",
+        "open": "open http://localhost:3000/api/local"
     },
     "dependencies": {
         "@nuxt/content": "3.7.1",
