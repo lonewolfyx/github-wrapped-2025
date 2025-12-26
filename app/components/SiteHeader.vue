@@ -2,26 +2,26 @@
     <div class="flex justify-between items-center border-b border-neutral-700 px-2 pt-1 pb-4">
         <div class="flex items-center gap-3">
             <img
-                alt="Github Logo"
+                :alt="user.name"
+                :src="`https://github.com/${user.login}.png`"
                 class="size-10 rounded-full drop-shadow drop-shadow-white"
-                src="https://github.com/lonewolfyx.png"
             >
             <div class="flex flex-col gap-2 text-xs">
-                <span class="text-xl text-white">OldDriver<span class="text-sm">(lonewolfyx)</span></span>
+                <span class="text-xl text-white">{{ user.name }}<span class="text-sm">({{ user.login }})</span></span>
                 <div class="flex justify-start items-center gap-3 text-neutral-400">
                     <div class="flex items-center gap-1">
                         <Icon
                             mode="svg"
                             name="mage:users"
                         />
-                        <span>36 followers</span>
+                        <span>{{ user.followers.totalCount }} followers</span>
                     </div>
                     <div class="flex items-center gap-1">
                         <Icon
                             mode="svg"
                             name="tabler:user-star"
                         />
-                        <span>36 following</span>
+                        <span>{{ user.following.totalCount }} following</span>
                     </div>
                 </div>
             </div>
@@ -49,8 +49,11 @@
 
 <script lang="ts" setup>
 import { cn } from '~/lib/utils'
+import { useGithubData } from '~/components/github'
 
 defineOptions({
     name: 'SiteHeader',
 })
+
+const { user } = useGithubData()
 </script>
