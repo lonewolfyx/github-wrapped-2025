@@ -10,11 +10,12 @@
         </SiteCardHeader>
         <CardContent>
             <ClientOnly>
-                <div class="grid grid-cols-52 gap-1 p-2 rounded-lg w-full">
+                <div class="grid grid-flow-col grid-rows-7 gap-1 p-2 rounded-lg w-full overflow-x-auto">
                     <div
-                        v-for="(cell, index) in cells"
-                        :key="`${cell.week}-${cell.day}`"
-                        :class="getCellClass(getContributionCount(index))"
+                        v-for="cell in cells"
+                        :key="cell.date"
+                        :class="getCellClass(getContributionCount(cell.date))"
+                        :title="`${cell.date}: ${getContributionCount(cell.date)} contributions`"
                         class="w-3 h-3 rounded-sm"
                     />
                 </div>
@@ -24,46 +25,67 @@
 </template>
 
 <script lang="ts" setup>
+import { useGithubData } from '~/components/github/index'
+import type { IContributions } from '~/types/github'
+import dayjs from 'dayjs'
+
 defineOptions({
     name: 'GithubContributionGraphBlocks',
 })
 
-// 2025 年总周数（ISO 8601）
-const WEEKS_IN_YEAR = 52
-const DAYS_PER_WEEK = 7
+const { contributions } = useGithubData()
 
-// 生成所有格子的坐标：[weekIndex][dayIndex]
-// 总共 52 * 7 = 364 个格子
+const maxCount = computed(() => {
+    if (contributions.length === 0) return 0
+    return Math.max(...contributions.map((c: IContributions) => c.contributionCount), 0)
+})
+
+const contributionMap = computed(() => {
+    const map = new Map<string, number>()
+    contributions.forEach((item: IContributions) => {
+        map.set(item.date, item.contributionCount)
+    })
+    return map
+})
+
 const cells = computed(() => {
-    const result: { week: number, day: number }[] = []
-    for (let week = 0; week < WEEKS_IN_YEAR; week++) {
-        for (let day = 0; day < DAYS_PER_WEEK; day++) {
-            result.push({ week, day })
-        }
+    const result: { date: string, week: number, day: number }[] = []
+    const startDate = new Date(`${dayjs().year()}-01-01`)
+
+    for (let i = 0; i < 365; i++) {
+        const currentDate = new Date(startDate)
+        currentDate.setDate(startDate.getDate() + i)
+
+        // 格式化为 YYYY-MM-DD
+        const dateStr = currentDate.toISOString().split('T')[0] as string
+
+        result.push({
+            date: dateStr,
+            week: Math.floor(i / 7),
+            day: currentDate.getDay(), // 0 是周日
+        })
     }
     return result
 })
 
-// 根据贡献次数返回颜色类（模拟 GitHub 的 5 级强度）
+const getContributionCount = (date: string): number => {
+    return contributionMap.value.get(date) || 0
+}
+
 const getCellClass = (count: number): string => {
-    if (count === 0) return 'bg-stone-100'
-    if (count < 5) return 'bg-neutral-200'
-    if (count < 10) return 'bg-zinc-300'
-    if (count < 20) return 'bg-zinc-400'
-    return 'bg-zinc-600'
-}
+    const max = maxCount.value
+    if (max === 0) return 'bg-slate-50'
 
-// 示例：模拟一些随机贡献（可替换为真实数据）
-const mockContributionMap = new Map<string, number>()
-// 初始化一个 2025 年的日期映射（简化版：只用于演示）
-// 实际项目中建议用 date-fns 或 dayjs 计算每个格子对应的真实日期
-for (let i = 0; i < 364; i++) {
-    // 随机生成 0~25 的提交数
-    mockContributionMap.set(`${i}`, Math.floor(Math.random() * 26))
-}
+    // 将 1 到 max 的区间平分为 4 份
+    // Level 1: (0, 25%]
+    // Level 2: (25%, 50%]
+    // Level 3: (50%, 75%]
+    // Level 4: (75%, 100%]
+    const step = max / 4
 
-// 获取某个格子的贡献值（这里用 index 模拟，实际应映射到日期）
-const getContributionCount = (index: number): number => {
-    return mockContributionMap.get(`${index}`) || 0
+    if (count <= step) return 'bg-slate-200' // 浅色
+    if (count <= step * 2) return 'bg-slate-400' // 中浅
+    if (count <= step * 3) return 'bg-slate-600' // 中深
+    return 'bg-slate-800' // 最深
 }
 </script>
