@@ -14,15 +14,57 @@
         }
     },
     "total": {
-        "contributions": 17576,
+        "contributions": 17577,
         "stars": 2080,
         "commits": 2365,
         "issues": {
             "total": 4,
-            "closed": 5
+            "closed": 4
         },
         "pullRequests": 25
     },
+    "issues": [
+        {
+            "title": "[Feature] add new string array encoding",
+            "url": "https://github.com/javascript-obfuscator/javascript-obfuscator/issues/779",
+            "state": "CLOSED",
+            "createdAt": "2020-10-13T13:59:36Z",
+            "closedAt": "2025-11-30T00:50:34Z",
+            "repository": {
+                "nameWithOwner": "javascript-obfuscator/javascript-obfuscator"
+            }
+        },
+        {
+            "title": "[Feature Request] Add New String Array Encoding",
+            "url": "https://github.com/javascript-obfuscator/javascript-obfuscator/issues/767",
+            "state": "CLOSED",
+            "createdAt": "2020-09-29T11:09:01Z",
+            "closedAt": "2025-11-30T00:51:28Z",
+            "repository": {
+                "nameWithOwner": "javascript-obfuscator/javascript-obfuscator"
+            }
+        },
+        {
+            "title": "about a new option ideal",
+            "url": "https://github.com/javascript-obfuscator/javascript-obfuscator/issues/665",
+            "state": "CLOSED",
+            "createdAt": "2020-07-13T13:31:34Z",
+            "closedAt": "2025-11-30T00:48:34Z",
+            "repository": {
+                "nameWithOwner": "javascript-obfuscator/javascript-obfuscator"
+            }
+        },
+        {
+            "title": "Feature suggestions",
+            "url": "https://github.com/javascript-obfuscator/javascript-obfuscator/issues/577",
+            "state": "CLOSED",
+            "createdAt": "2020-03-11T13:59:14Z",
+            "closedAt": "2025-11-30T00:48:13Z",
+            "repository": {
+                "nameWithOwner": "javascript-obfuscator/javascript-obfuscator"
+            }
+        }
+    ],
     "repository": {
         "repositories": {
             "nodes": [
@@ -1737,7 +1779,7 @@
             },
             {
                 "month": "Dec",
-                "totalContributions": 1546
+                "totalContributions": 1547
             }
         ]
     },
@@ -1789,10 +1831,10 @@
             },
             {
                 "month": "Dec",
-                "totalContributions": 1546
+                "totalContributions": 1547
             }
         ],
-        "averagePerMonth": 1464.6666666666667
+        "averagePerMonth": 1464.75
     },
     "weekendContributionStats": {
         "contributedDays": 102,
@@ -1934,7 +1976,7 @@
         },
         {
             "day": "Friday",
-            "totalContributions": 2574,
+            "totalContributions": 2575,
             "averagePerWeek": 50
         },
         {
@@ -3741,7 +3783,7 @@
         },
         {
             "date": "2025-12-26",
-            "contributionCount": 26,
+            "contributionCount": 27,
             "weekday": 5
         },
         {
