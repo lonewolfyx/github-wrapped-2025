@@ -1,6 +1,6 @@
-import { fetchGithubData } from './graphql'
 import dayjs from 'dayjs'
 import type { IPullRequestNode, IPullRequestResult } from '~/types/github'
+import { useFetchGithubData } from '~/composables/useFetchGithubData'
 
 /**
  * 获取用户的 PR
@@ -36,7 +36,7 @@ export const getPullRequests = async (user: string): Promise<IPullRequestResult>
     let afterCursor: string | null = null
 
     while (hasNextPage) {
-        const data = await fetchGithubData(user, query, {
+        const data = await useFetchGithubData(user, query, {
             searchQuery: `author:${user} type:pr created:${year}-01-01..${year}-12-31`,
             after: afterCursor,
         })
