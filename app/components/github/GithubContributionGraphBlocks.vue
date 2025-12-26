@@ -46,11 +46,11 @@ const cells = computed(() => {
 
 // 根据贡献次数返回颜色类（模拟 GitHub 的 5 级强度）
 const getCellClass = (count: number): string => {
-    if (count === 0) return 'bg-gray-100'
-    if (count < 5) return 'bg-green-200'
-    if (count < 10) return 'bg-green-300'
-    if (count < 20) return 'bg-green-400'
-    return 'bg-green-600'
+    if (count === 0) return 'bg-stone-100'
+    if (count < 5) return 'bg-neutral-200'
+    if (count < 10) return 'bg-zinc-300'
+    if (count < 20) return 'bg-zinc-400'
+    return 'bg-zinc-600'
 }
 
 // 示例：模拟一些随机贡献（可替换为真实数据）
