@@ -16,82 +16,52 @@
                         'bg-clip-text bg-linear-to-r',
                         'from-green-500 to-green-900',
                     )"
-                >Typescript</span>
+                >{{ languagesStar[0].name }}</span>
                 <div class="flex items-center gap-1 w-full">
-                    <div class="bg-green-500 h-2 w-full basis-[60%] rounded-xs" />
-                    <div class="bg-destructive h-2 w-full basis-[25%] rounded-xs" />
-                    <div class="bg-violet-500 h-2 w-full basis-[15%] rounded-xs" />
+                    <div
+                        v-for="item in languagesStar"
+                        :key="item.name"
+                        :style="{
+                            backgroundColor: item.color,
+                            flexBasis: item.progress,
+                        }"
+                        class="h-2 w-full rounded-xs"
+                    />
                 </div>
                 <div class="flex items-center flex-wrap gap-4 mb-1">
-                    <div class="flex items-center gap-1.5">
-                        <span class="rounded-full size-2 bg-red-500" />
+                    <div
+                        v-for="item in languagesStar"
+                        :key="`s-${item.name}`"
+                        class="flex items-center gap-1.5"
+                    >
+                        <span
+                            :style="{
+                                backgroundColor: item.color,
+                            }"
+                            class="rounded-full size-2 bg-red-500"
+                        />
                         <span class="text-sm font-normal text-muted/50">
-                            Vue
-                        </span>
-                    </div>
-                    <div class="flex items-center gap-1.5">
-                        <span class="rounded-full size-2 bg-green-500" />
-                        <span class="text-sm font-normal text-muted/50">
-                            React
-                        </span>
-                    </div>
-                    <div class="flex items-center gap-1.5">
-                        <span class="rounded-full size-2 bg-blue-500" />
-                        <span class="text-sm font-normal text-muted/50">
-                            Rust
+                            {{ item.name }}
                         </span>
                     </div>
                 </div>
             </div>
             <div class="border-b border-neutral-700" />
             <div class="space-y-2">
-                <div class="flex items-center gap-2">
+                <div
+                    v-for="item in languagesList"
+                    :key="item.name"
+                    class="flex items-center gap-2"
+                >
                     <div
+                        :style="{
+                            backgroundColor: item.color,
+                        }"
                         class="w-3 h-3 rounded-full"
                         style="background-color: rgb(241, 224, 90);"
                     />
-                    <span class="text-sm md:text-base text-muted/50">JavaScript</span>
-                    <span class="text-xs md:text-sm ml-auto text-muted">58.0%</span>
-                </div>
-                <div class="flex items-center gap-2">
-                    <div
-                        class="w-3 h-3 rounded-full"
-                        style="background-color: rgb(241, 224, 90);"
-                    />
-                    <span class="text-sm md:text-base text-muted/50">JavaScript</span>
-                    <span class="text-xs md:text-sm ml-auto text-muted">58.0%</span>
-                </div>
-                <div class="flex items-center gap-2">
-                    <div
-                        class="w-3 h-3 rounded-full"
-                        style="background-color: rgb(241, 224, 90);"
-                    />
-                    <span class="text-sm md:text-base text-muted/50">JavaScript</span>
-                    <span class="text-xs md:text-sm ml-auto text-muted">58.0%</span>
-                </div>
-                <div class="flex items-center gap-2">
-                    <div
-                        class="w-3 h-3 rounded-full"
-                        style="background-color: rgb(241, 224, 90);"
-                    />
-                    <span class="text-sm md:text-base text-muted/50">JavaScript</span>
-                    <span class="text-xs md:text-sm ml-auto text-muted">58.0%</span>
-                </div>
-                <div class="flex items-center gap-2">
-                    <div
-                        class="w-3 h-3 rounded-full"
-                        style="background-color: rgb(241, 224, 90);"
-                    />
-                    <span class="text-sm md:text-base text-muted/50">JavaScript</span>
-                    <span class="text-xs md:text-sm ml-auto text-muted">58.0%</span>
-                </div>
-                <div class="flex items-center gap-2">
-                    <div
-                        class="w-3 h-3 rounded-full"
-                        style="background-color: rgb(241, 224, 90);"
-                    />
-                    <span class="text-sm md:text-base text-muted/50">JavaScript</span>
-                    <span class="text-xs md:text-sm ml-auto text-muted">58.0%</span>
+                    <span class="text-sm md:text-base text-muted/50">{{ item.name }}</span>
+                    <span class="text-xs md:text-sm ml-auto text-muted">{{ item.progress }} %</span>
                 </div>
             </div>
         </CardContent>
@@ -100,8 +70,14 @@
 
 <script lang="ts" setup>
 import { cn } from '~/lib/utils'
+import { useGithubData } from '~/components/github/index'
 
 defineOptions({
     name: 'GithubTopLanguages',
 })
+
+const { languages } = useGithubData()
+const languagesData = structuredClone(languages)
+const languagesStar = languagesData.splice(0, 3)
+const languagesList = languagesData
 </script>

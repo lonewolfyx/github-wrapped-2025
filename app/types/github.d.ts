@@ -71,6 +71,7 @@ export interface IRepoTopsLanguages {
     color?: string
     size: number
     repoCount: number
+    progress: number
 }
 
 export interface IWeeklyContribution {
