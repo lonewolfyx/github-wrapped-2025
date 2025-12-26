@@ -37,7 +37,7 @@
                         class="absolute flex flex-col items-center justify-center text-center"
                     >
                         <span class="text-xl text-white font-bold">
-                            52
+                            {{ weekendContributionStats.contributedDays }}
                         </span>
                         <span class="text-xs md:text-sm text-muted-foreground">
                             Days
@@ -51,7 +51,7 @@
 
 <script lang="ts" setup>
 import dayjs from 'dayjs'
-import { getStrokeDasharray } from '.'
+import { getStrokeDasharray, useGithubData } from '.'
 
 defineOptions({
     name: 'GithubWeekendActivity',
@@ -86,5 +86,7 @@ const countWeekendsInYear = () => {
 }
 
 const { total: breakDays } = countWeekendsInYear()
-const strokeDasharray = computed(() => getStrokeDasharray(52, breakDays, 45))
+const { weekendContributionStats } = useGithubData()
+
+const strokeDasharray = computed(() => getStrokeDasharray(weekendContributionStats.contributedDays, breakDays, 45))
 </script>
