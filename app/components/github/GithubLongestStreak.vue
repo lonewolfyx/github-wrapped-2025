@@ -12,7 +12,7 @@
                 <div class="flex flex-col gap-1 pb-4">
                     <div class="flex items-end gap-2">
                         <span class="base-text text-3xl">
-                            365
+                            {{ longestCommitStreak }}
                         </span>
                         <span class="text-muted">days</span>
                     </div>
@@ -26,7 +26,11 @@
 </template>
 
 <script lang="ts" setup>
+import { useGithubData } from '~/components/github/index'
+
 defineOptions({
     name: 'GithubLongestStreak',
 })
+
+const { longestCommitStreak } = useGithubData()
 </script>
