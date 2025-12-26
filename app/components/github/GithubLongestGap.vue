@@ -21,8 +21,8 @@
                             stroke-width="12"
                         />
                         <circle
-                            :stroke-dasharray="`${(123 / 9999999) * 352} 352`"
-                            class="text-green-600"
+                            :stroke-dasharray="`${(123 / 365) * 352} 352`"
+                            class="text-red-600"
                             cx="55"
                             cy="55"
                             fill="transparent"
