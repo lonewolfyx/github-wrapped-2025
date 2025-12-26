@@ -12,9 +12,9 @@
                 <div class="flex flex-col gap-1 pb-4">
                     <div class="flex items-end gap-2">
                         <span class="base-text text-3xl">
-                            12
+                            {{ dayjs(date).date() }}
                         </span>
-                        <span class="text-muted">Dec.</span>
+                        <span class="text-muted">{{ dayjs(date).format('MMM') }}.</span>
                     </div>
                     <span class="text-sm font-normal text-muted/50">
                         Most Commits
@@ -26,7 +26,13 @@
 </template>
 
 <script lang="ts" setup>
+import { useGithubData } from '~/components/github/index'
+import dayjs from 'dayjs'
+
 defineOptions({
     name: 'GithubMostCommitsDay',
 })
+
+const { mostActiveStats } = useGithubData()
+const date = mostActiveStats.mostActiveDay.date
 </script>
