@@ -125,6 +125,15 @@ export interface IUser {
     }
 }
 
+export interface ITotal {
+    contributions: number
+    stars: number
+    commits: number
+    issues: number
+    pullRequests: number
+}
+
 export interface IGithubGraphData {
     user: IUser
+    total: ITotal
 }
