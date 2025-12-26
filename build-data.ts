@@ -96,10 +96,10 @@ const contributionQuery = `contributionsCollection(
             }
             commitContributionsByRepository {
                 contributions {
-                totalCount
+                    totalCount
                 }
                 repository {
-                stargazerCount
+                    stargazerCount
                 }
             }
             totalCommitContributions
