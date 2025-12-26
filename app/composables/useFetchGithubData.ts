@@ -1,6 +1,8 @@
 import { ofetch } from 'ofetch'
 
-export const fetchGithubData = async (user: string, query: string, variables: object) => {
+export const useFetchGithubData = async (user: string, query: string, variables: object) => {
+    const config = useRuntimeConfig()
+
     try {
         const { data } = await ofetch('https://api.github.com/graphql', {
             method: 'post',
@@ -11,7 +13,7 @@ export const fetchGithubData = async (user: string, query: string, variables: ob
             headers: {
                 'Accept': 'application/vnd.github.v3+json',
                 'User-Agent': 'SixNineNine',
-                'Authorization': `Bearer ${process.env.GITHUB_API_TOKEN}`,
+                'Authorization': `Bearer ${config.githubToken || config.public.githubToken}`,
             },
             timeout: 10000,
         })

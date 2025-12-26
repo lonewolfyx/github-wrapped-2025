@@ -1,6 +1,6 @@
 import dayjs from 'dayjs'
 import type { IIssues, IIssuesNode, IIssuesResult } from '~/types/github'
-import { fetchGithubData } from './graphql'
+import { useFetchGithubData } from '~/composables/useFetchGithubData'
 
 /**
  * 获取 issues 统计
@@ -41,7 +41,7 @@ export const getIssuesStatistics = async (user: string): Promise<IIssuesResult> 
     let hasNextPage = true
     const issues: IIssuesNode[] = []
     while (hasNextPage) {
-        const res = await fetchGithubData(user, query, {
+        const res = await useFetchGithubData(user, query, {
             login: user,
             cursor,
             since: `${dayjs().year()}-01-01T00:00:00Z`,
