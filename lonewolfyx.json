@@ -14,10 +14,13 @@
         }
     },
     "total": {
-        "contributions": 17550,
+        "contributions": 17576,
         "stars": 2080,
-        "commits": 2362,
-        "issues": 4,
+        "commits": 2365,
+        "issues": {
+            "total": 4,
+            "closed": 5
+        },
         "pullRequests": 25
     },
     "repository": {
@@ -1672,11 +1675,11 @@
             "progress": "0.05"
         }
     ],
-    "longestCommitStreak": 359,
+    "longestCommitStreak": 360,
     "longestNoContributionStreak": {
-        "days": 0,
-        "startDate": "",
-        "endDate": ""
+        "days": 5,
+        "startDate": "2025-12-27",
+        "endDate": "2025-12-31"
     },
     "mostActiveStats": {
         "mostActiveMonth": {
@@ -1734,7 +1737,7 @@
             },
             {
                 "month": "Dec",
-                "totalContributions": 1520
+                "totalContributions": 1546
             }
         ]
     },
@@ -1786,14 +1789,14 @@
             },
             {
                 "month": "Dec",
-                "totalContributions": 1520
+                "totalContributions": 1546
             }
         ],
-        "averagePerMonth": 1462.5
+        "averagePerMonth": 1464.6666666666667
     },
     "weekendContributionStats": {
         "contributedDays": 102,
-        "noContributionDays": 0,
+        "noContributionDays": 2,
         "contributedDates": [
             "2025-01-04",
             "2025-01-05",
@@ -1898,7 +1901,10 @@
             "2025-12-20",
             "2025-12-21"
         ],
-        "noContributionDates": []
+        "noContributionDates": [
+            "2025-12-27",
+            "2025-12-28"
+        ]
     },
     "weeklyAverageContribution": [
         {
@@ -1909,17 +1915,17 @@
         {
             "day": "Monday",
             "totalContributions": 2491,
-            "averagePerWeek": 49
+            "averagePerWeek": 48
         },
         {
             "day": "Tuesday",
             "totalContributions": 2502,
-            "averagePerWeek": 49
+            "averagePerWeek": 48
         },
         {
             "day": "Wednesday",
             "totalContributions": 2621,
-            "averagePerWeek": 50
+            "averagePerWeek": 49
         },
         {
             "day": "Thursday",
@@ -1928,13 +1934,13 @@
         },
         {
             "day": "Friday",
-            "totalContributions": 2548,
+            "totalContributions": 2574,
             "averagePerWeek": 50
         },
         {
             "day": "Saturday",
             "totalContributions": 2427,
-            "averagePerWeek": 48
+            "averagePerWeek": 47
         }
     ],
     "contributions": [
@@ -3732,6 +3738,36 @@
             "date": "2025-12-25",
             "contributionCount": 63,
             "weekday": 4
+        },
+        {
+            "date": "2025-12-26",
+            "contributionCount": 26,
+            "weekday": 5
+        },
+        {
+            "date": "2025-12-27",
+            "contributionCount": 0,
+            "weekday": 6
+        },
+        {
+            "date": "2025-12-28",
+            "contributionCount": 0,
+            "weekday": 0
+        },
+        {
+            "date": "2025-12-29",
+            "contributionCount": 0,
+            "weekday": 1
+        },
+        {
+            "date": "2025-12-30",
+            "contributionCount": 0,
+            "weekday": 2
+        },
+        {
+            "date": "2025-12-31",
+            "contributionCount": 0,
+            "weekday": 3
         }
     ]
 }
