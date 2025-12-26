@@ -40,7 +40,7 @@ export default defineNuxtConfig({
         storage: {
             cache: {
                 driver: 'fs',
-                base: './.cache/user_data',
+                base: process.env.VERCEL ? '/tmp/user_data' : './.cache/user_data',
             },
         },
     },
