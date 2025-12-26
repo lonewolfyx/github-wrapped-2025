@@ -22,7 +22,7 @@
                             stroke-width="12"
                         />
                         <circle
-                            :stroke-dasharray="`${(123 / 9999999) * 352} 352`"
+                            :stroke-dasharray="strokeDasharray"
                             class="text-green-600"
                             cx="55"
                             cy="55"
@@ -37,7 +37,7 @@
                         class="absolute flex flex-col items-center justify-center text-center"
                     >
                         <span class="text-xl text-white font-bold">
-                            365
+                            52
                         </span>
                         <span class="text-xs md:text-sm text-muted-foreground">
                             Days
@@ -50,7 +50,46 @@
 </template>
 
 <script lang="ts" setup>
+import dayjs from 'dayjs'
+
 defineOptions({
     name: 'GithubWeekendActivity',
 })
+
+const countWeekendsInYear = () => {
+    const year = dayjs().year()
+    const start = dayjs(`${year}-01-01`)
+    const end = dayjs(`${year}-12-31`)
+
+    let saturdays = 0
+    let sundays = 0
+
+    let current = start.startOf('day')
+
+    while (current.isBefore(end) || current.isSame(end, 'day')) {
+        const dayOfWeek = current.day()
+        if (dayOfWeek === 6) {
+            saturdays++
+        }
+        else if (dayOfWeek === 0) {
+            sundays++
+        }
+        current = current.add(1, 'day')
+    }
+
+    return {
+        saturdays,
+        sundays,
+        total: saturdays + sundays,
+    }
+}
+
+const breakDays = computed(() => countWeekendsInYear()['total'])
+
+const svgPathLength = computed(() => 2 * Math.PI * 45)
+const progressRatio = computed(() => 52 / breakDays.value)
+const dashLength = computed(() => progressRatio.value * svgPathLength.value)
+const gapLength = computed(() => svgPathLength.value - dashLength.value)
+
+const strokeDasharray = `${dashLength.value}, ${gapLength.value}`
 </script>
