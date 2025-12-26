@@ -11,7 +11,10 @@
             {{ repository.description }}
         </p>
         <div class="flex items-center gap-4">
-            <div class="flex items-center gap-1">
+            <div
+                v-if="repository.primaryLanguage"
+                class="flex items-center gap-1"
+            >
                 <div
                     :style="{
                         backgroundColor: repository.primaryLanguage.color,

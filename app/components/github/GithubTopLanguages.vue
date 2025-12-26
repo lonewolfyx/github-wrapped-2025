@@ -46,23 +46,25 @@
                     </div>
                 </div>
             </div>
-            <div class="border-b border-neutral-700" />
-            <div class="space-y-2">
-                <div
-                    v-for="item in languagesList"
-                    :key="item.name"
-                    class="flex items-center gap-2"
-                >
+            <template v-if="languagesList.length">
+                <div class="border-b border-neutral-700" />
+                <div class="space-y-2">
                     <div
-                        :style="{
-                            backgroundColor: item.color,
-                        }"
-                        class="w-3 h-3 rounded-full"
-                    />
-                    <span class="text-sm md:text-base text-muted/50">{{ item.name }}</span>
-                    <span class="text-xs md:text-sm ml-auto text-muted">{{ item.progress }} %</span>
+                        v-for="item in languagesList"
+                        :key="item.name"
+                        class="flex items-center gap-2"
+                    >
+                        <div
+                            :style="{
+                                backgroundColor: item.color,
+                            }"
+                            class="w-3 h-3 rounded-full"
+                        />
+                        <span class="text-sm md:text-base text-muted/50">{{ item.name }}</span>
+                        <span class="text-xs md:text-sm ml-auto text-muted">{{ item.progress }} %</span>
+                    </div>
                 </div>
-            </div>
+            </template>
         </CardContent>
     </SiteCard>
 </template>
