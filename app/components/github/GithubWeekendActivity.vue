@@ -51,6 +51,7 @@
 
 <script lang="ts" setup>
 import dayjs from 'dayjs'
+import { getStrokeDasharray } from '.'
 
 defineOptions({
     name: 'GithubWeekendActivity',
@@ -84,12 +85,6 @@ const countWeekendsInYear = () => {
     }
 }
 
-const breakDays = computed(() => countWeekendsInYear()['total'])
-
-const svgPathLength = computed(() => 2 * Math.PI * 45)
-const progressRatio = computed(() => 52 / breakDays.value)
-const dashLength = computed(() => progressRatio.value * svgPathLength.value)
-const gapLength = computed(() => svgPathLength.value - dashLength.value)
-
-const strokeDasharray = `${dashLength.value}, ${gapLength.value}`
+const { total: breakDays } = countWeekendsInYear()
+const strokeDasharray = computed(() => getStrokeDasharray(52, breakDays, 45))
 </script>
