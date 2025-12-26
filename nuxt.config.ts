@@ -1,4 +1,5 @@
 import tailwindcss from '@tailwindcss/vite'
+import { virtualUserGithubSource } from './plugins/vite-plugin-user-github-source'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -24,6 +25,7 @@ export default defineNuxtConfig({
     vite: {
         plugins: [
             tailwindcss(),
+            virtualUserGithubSource(),
         ],
     },
 
