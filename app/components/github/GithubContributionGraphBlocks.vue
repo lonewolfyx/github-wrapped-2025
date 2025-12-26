@@ -11,13 +11,26 @@
         <CardContent>
             <ClientOnly>
                 <div class="grid grid-flow-col grid-rows-7 gap-1 p-2 rounded-lg w-full overflow-x-auto">
-                    <div
+                    <TooltipProvider
                         v-for="cell in cells"
                         :key="cell.date"
-                        :class="getCellClass(getContributionCount(cell.date))"
-                        :title="`${cell.date}: ${getContributionCount(cell.date)} contributions`"
-                        class="w-3 h-3 rounded-sm"
-                    />
+                    >
+                        <Tooltip>
+                            <TooltipTrigger>
+                                <div
+                                    :class="getCellClass(getContributionCount(cell.date))"
+                                    :title="`${cell.date}: ${getContributionCount(cell.date)} contributions`"
+                                    class="w-3 h-3 rounded-sm"
+                                />
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>
+                                    {{ getContributionCount(cell.date) }}contributions on
+                                    {{ dayjs(cell.date).format('MMMM DD') }}
+                                </p>
+                            </TooltipContent>
+                        </Tooltip>
+                    </TooltipProvider>
                 </div>
             </ClientOnly>
         </CardContent>
@@ -28,6 +41,7 @@
 import { useGithubData } from '~/components/github/index'
 import type { IContributions } from '~/types/github'
 import dayjs from 'dayjs'
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '~/components/ui/tooltip'
 
 defineOptions({
     name: 'GithubContributionGraphBlocks',
