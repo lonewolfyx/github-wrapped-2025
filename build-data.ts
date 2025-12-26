@@ -1,10 +1,11 @@
-import { ofetch } from 'ofetch'
 import { resolve } from 'node:path'
 import dotenv from 'dotenv'
+import { getIssuesStatistics } from './app/lib/issues'
+import { fetchGithubData } from './app/lib/graphql'
 import { writeFile } from 'node:fs/promises'
+import { summarizeRepoLanguages } from './app/lib/languages'
 import { getLongestCommitStreak } from './app/lib/longest.commit.streak'
 import { getLongestNoContributionStreak } from './app/lib/longest.no.contribution.streak'
-import { summarizeRepoLanguages } from './app/lib/languages'
 import { getWeekendContributionStats, getWeeklyAverageContribution } from './app/lib/weeks'
 import { getMonthlyAverageContribution, getMostActiveContributionStats } from './app/lib/month'
 
@@ -113,31 +114,6 @@ const createQuery = (query: string) => `query ($login: String!) {
     }
 }`
 
-const fetchGithubData = async (user: string, query: string) => {
-    try {
-        const { data } = await ofetch('https://api.github.com/graphql', {
-            method: 'post',
-            body: JSON.stringify({
-                query: `${query}`,
-                variables: {
-                    login: user,
-                },
-            }),
-            headers: {
-                'Accept': 'application/vnd.github.v3+json',
-                'User-Agent': 'SixNineNine',
-                'Authorization': `Bearer ${process.env.GITHUB_API_TOKEN}`,
-            },
-            timeout: 10000,
-        })
-
-        return data.user
-    }
-    catch (error) {
-        console.error(error)
-    }
-}
-
 interface ContributionDay {
     date: string // YYYY-MM-DD
     contributionCount: number
@@ -145,10 +121,14 @@ interface ContributionDay {
 
 (async () => {
     const user = 'lonewolfyx'
-    const [userinfo, repository, contributions] = await Promise.all([
-        await fetchGithubData(user, createQuery(userInfoQuery)),
-        await fetchGithubData(user, createQuery(repositoryQuery)),
-        await fetchGithubData(user, createQuery(contributionQuery)),
+    const params = {
+        login: user,
+    }
+    const [userinfo, repository, contributions, issues] = await Promise.all([
+        await fetchGithubData(user, createQuery(userInfoQuery), params),
+        await fetchGithubData(user, createQuery(repositoryQuery), params),
+        await fetchGithubData(user, createQuery(contributionQuery), params),
+        await getIssuesStatistics(user),
     ])
     // console.log(contributions)
 
@@ -169,7 +149,11 @@ interface ContributionDay {
             // 创建的 commit 数
             commits: contributions.contributionsCollection.totalCommitContributions,
             // 创建的 issue 数
-            issues: contributions.contributionsCollection.totalIssueContributions,
+            issues: {
+                total: contributions.contributionsCollection.totalIssueContributions,
+                opened: issues.opened,
+                closed: issues.closed,
+            },
             // 创建的 pr 数
             pullRequests: contributions.contributionsCollection.totalPullRequestContributions,
         },

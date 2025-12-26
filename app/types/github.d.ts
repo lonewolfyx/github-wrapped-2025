@@ -110,6 +110,31 @@ export interface IMostActiveStats {
     monthlyStats: IMonthlyContribution[]
 }
 
+export interface IIssuesNode {
+    title: string
+    url: string
+    state: string
+    createdAt: string
+    closedAt: string
+    repository: {
+        nameWithOwner: string
+    }
+}
+
+export interface IIssues {
+    nodes: IIssuesNode[]
+    pageInfo: {
+        hasNextPage: boolean
+        endCursor: string
+    }
+}
+
+export interface IIssuesResult {
+    issues: IIssuesNode[]
+    closed: number
+    open: number
+}
+
 export interface IUser {
     login: string
     name: string
@@ -129,7 +154,10 @@ export interface ITotal {
     contributions: number
     stars: number
     commits: number
-    issues: number
+    issues: {
+        total: number
+        closed: number
+    }
     pullRequests: number
 }
 
