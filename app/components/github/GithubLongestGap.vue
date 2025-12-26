@@ -36,7 +36,7 @@
                         class="absolute flex flex-col items-center justify-center text-center"
                     >
                         <span class="text-xl text-white font-bold">
-                            365
+                            {{ longestNoContributionStreak.days }}
                         </span>
                         <span class="text-xs md:text-sm text-muted-foreground">
                             Days
@@ -49,11 +49,12 @@
 </template>
 
 <script lang="ts" setup>
-import { getStrokeDasharray } from '.'
+import { getStrokeDasharray, useGithubData } from '.'
 
 defineOptions({
     name: 'GithubLongestGap',
 })
 
-const strokeDasharray = computed(() => getStrokeDasharray(300, 365, 45))
+const { longestNoContributionStreak } = useGithubData()
+const strokeDasharray = computed(() => getStrokeDasharray(longestNoContributionStreak.days, 365, 45))
 </script>
