@@ -1,6 +1,10 @@
 <template>
     <div class="flex justify-between items-center border-b border-neutral-700 px-2 pt-1 pb-4">
-        <div class="flex items-center gap-3">
+        <NuxtLink
+            class="flex items-center gap-3"
+            target="_blank"
+            :to="`https://github.com/${user.login}`"
+        >
             <img
                 :alt="user.name"
                 :src="`https://github.com/${user.login}.png`"
@@ -25,7 +29,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </NuxtLink>
         <Button
             :class="cn(
                 'base-muted rounded-full px-5 text-xs tracking-wide',
