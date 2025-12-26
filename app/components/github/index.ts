@@ -1,4 +1,5 @@
 import { createContext } from 'reka-ui'
+import type { IGithubGraphData } from '~/types/github'
 
 export { default as GithubContainer } from './GithubContainer.vue'
 export { default as GithubAverageCommitsPerWeek } from './GithubAverageCommitsPerWeek.vue'
@@ -17,7 +18,7 @@ export { default as GithubTotalIssues } from './GithubTotalIssues.vue'
 export { default as GithubWeekendActivity } from './GithubWeekendActivity.vue'
 export { default as GithubTopRepositoryItems } from './GithubTopRepositoryItems.vue'
 
-export const [providerGithubData, useGithubData] = createContext<any>('GithubData')
+export const [useGithubData, providerGithubData] = createContext<IGithubGraphData>('GithubData')
 
 /**
  * 获取进度条的 dasharray

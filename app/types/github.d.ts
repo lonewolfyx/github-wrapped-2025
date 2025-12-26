@@ -109,3 +109,22 @@ export interface IMostActiveStats {
     /** 所有月份统计 */
     monthlyStats: IMonthlyContribution[]
 }
+
+export interface IUser {
+    login: string
+    name: string
+    bio: string
+    url: string
+    avatarUrl: string
+    pronouns: string
+    followers: {
+        totalCount: number
+    }
+    following: {
+        totalCount: number
+    }
+}
+
+export interface IGithubGraphData {
+    user: IUser
+}
