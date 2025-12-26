@@ -180,6 +180,7 @@ export interface ITotal {
     commits: number
     issues: {
         total: number
+        opened: number
         closed: number
     }
     pullRequests: {
