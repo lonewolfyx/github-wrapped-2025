@@ -9,7 +9,10 @@
             <!-- 今年的开发语言排行图表 -->
         </SiteCardHeader>
         <CardContent class="space-y-4 overflow-auto">
-            <div class="flex flex-col gap-4">
+            <div
+                v-if="languagesData.length"
+                class="flex flex-col gap-4"
+            >
                 <span
                     :class="cn(
                         'font-mono text-2xl text-transparent',
