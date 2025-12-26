@@ -12,7 +12,7 @@
                 <div class="flex flex-col gap-1 pb-4">
                     <div class="flex items-end gap-2">
                         <span class="base-text text-3xl">
-                            12
+                            {{ dayjs(mostActiveStats.mostActiveMonth.month).month() + 1 }}
                         </span>
                         <span class="text-muted">Month.</span>
                     </div>
@@ -26,7 +26,12 @@
 </template>
 
 <script lang="ts" setup>
+import { useGithubData } from '~/components/github/index'
+import dayjs from 'dayjs'
+
 defineOptions({
     name: 'GithubMostActiveMonth',
 })
+
+const { mostActiveStats } = useGithubData()
 </script>
