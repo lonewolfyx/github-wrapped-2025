@@ -8,7 +8,7 @@
             Top Languages
             <!-- 今年的开发语言排行图表 -->
         </SiteCardHeader>
-        <CardContent class="space-y-4">
+        <CardContent class="space-y-4 overflow-auto">
             <div class="flex flex-col gap-4">
                 <span
                     :class="cn(
@@ -58,7 +58,6 @@
                             backgroundColor: item.color,
                         }"
                         class="w-3 h-3 rounded-full"
-                        style="background-color: rgb(241, 224, 90);"
                     />
                     <span class="text-sm md:text-base text-muted/50">{{ item.name }}</span>
                     <span class="text-xs md:text-sm ml-auto text-muted">{{ item.progress }} %</span>
