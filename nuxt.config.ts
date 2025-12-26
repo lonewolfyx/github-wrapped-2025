@@ -20,7 +20,30 @@ export default defineNuxtConfig({
     css: [
         '~/assets/css/main.css',
     ],
+
+    runtimeConfig: {
+        githubToken: process.env.GITHUB_TOKEN || '',
+        public: {
+            // Public runtime config for client-side access on local environment only
+            githubToken: process.env.NODE_ENV === 'development' ? process.env.GITHUB_TOKEN : '',
+        },
+
+    },
+
+    future: {
+        compatibilityVersion: 4,
+    },
+
     compatibilityDate: '2025-12-22',
+
+    nitro: {
+        storage: {
+            cache: {
+                driver: 'fs',
+                base: './.cache/user_data',
+            },
+        },
+    },
 
     vite: {
         plugins: [
