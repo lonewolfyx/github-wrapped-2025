@@ -7,13 +7,14 @@ import { getLongestNoContributionStreak } from '~/lib/longest.no.contribution.st
 import { getMonthlyAverageContribution, getMostActiveContributionStats } from '~/lib/month'
 import { getWeekendContributionStats, getWeeklyAverageContribution } from '~/lib/weeks'
 import { useFetchGithubData } from '~/composables/useFetchGithubData'
+import type { IGithubGraphData } from '~/types/github'
 
 interface ContributionDay {
     date: string // YYYY-MM-DD
     contributionCount: number
 }
 
-export const getGithubUserData = async (user: string) => {
+export const getGithubUserData = async (user: string): Promise<IGithubGraphData> => {
     const params = {
         login: user,
     }
