@@ -36,7 +36,7 @@
                         class="absolute flex flex-col items-center justify-center text-center"
                     >
                         <span class="text-xl text-white font-bold">
-                            123
+                            {{ pullRequest.pullRequests.total }}
                         </span>
                         <span class="text-xs md:text-sm text-muted-foreground">
                             Total
@@ -49,15 +49,12 @@
 </template>
 
 <script lang="ts" setup>
-import { getStrokeDasharray } from '.'
+import { getStrokeDasharray, useGithubData } from '.'
 
 defineOptions({
     name: 'GithubPullRequestsTotal',
 })
 
-const total = 80
-const close = 20
-const merged = 30
-const used = computed(() => close + merged)
-const strokeDasharray = computed(() => getStrokeDasharray(used.value, total, 45))
+const { total: pullRequest } = useGithubData()
+const strokeDasharray = computed(() => getStrokeDasharray(pullRequest.pullRequests.merged, pullRequest.pullRequests.total, 45))
 </script>
