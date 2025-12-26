@@ -68,7 +68,7 @@ const { weeklyAverageContribution } = useGithubData()
 
 const chartConfig = {
     averagePerWeek: {
-        label: 'Commits:',
+        label: 'Contributions:',
         color: 'var(--chart-2)',
     },
 } satisfies ChartConfig
