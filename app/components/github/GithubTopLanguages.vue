@@ -20,15 +20,25 @@
                         )"
                     >{{ topLanguage.name }}</span>
                     <div class="flex items-center gap-1 w-full">
-                        <div
+                        <TooltipProvider
                             v-for="item in languagesStar"
                             :key="item.name"
-                            :style="{
-                                backgroundColor: item.color,
-                                flexBasis: item.progress,
-                            }"
-                            class="h-2 w-full rounded-xs"
-                        />
+                        >
+                            <Tooltip>
+                                <TooltipTrigger as-child>
+                                    <div
+                                        :style="{
+                                            backgroundColor: item.color,
+                                            flexBasis: item.progress,
+                                        }"
+                                        class="h-2 w-full rounded-xs"
+                                    />
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    {{ item.name }} use {{ item.progress }}%
+                                </TooltipContent>
+                            </Tooltip>
+                        </TooltipProvider>
                     </div>
                     <div class="flex items-center flex-wrap gap-4 mb-1">
                         <div
