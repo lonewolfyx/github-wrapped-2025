@@ -88,7 +88,7 @@ const getContributionCount = (date: string): number => {
 
 const getCellClass = (count: number): string => {
     const max = maxCount.value
-    if (max === 0) return 'bg-slate-50'
+    if (max === 0 || count === 0) return 'bg-stone-500/10'
 
     // 将 1 到 max 的区间平分为 4 份
     // Level 1: (0, 25%]
@@ -97,9 +97,9 @@ const getCellClass = (count: number): string => {
     // Level 4: (75%, 100%]
     const step = max / 4
 
-    if (count <= step) return 'bg-green-900' // 浅色
-    if (count <= step * 2) return 'bg-slate-400' // 中浅
-    if (count <= step * 3) return 'bg-slate-500' // 中深
-    return 'bg-red-800' // 最深
+    if (count <= step) return 'bg-stone-500/35' // 浅色
+    if (count <= step * 2) return 'bg-stone-500/65' // 中浅
+    if (count <= step * 3) return 'bg-stone-500/75' // 中深
+    return 'bg-black' // 最深
 }
 </script>
