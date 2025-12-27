@@ -1,11 +1,5 @@
 <template>
-    <div v-if="pending">
-        loading
-    </div>
-    <div
-        v-else
-        class="flex-1 overflow-hidden"
-    >
+    <div class="flex-1 overflow-hidden">
         <slot />
     </div>
 </template>
@@ -22,7 +16,7 @@ defineOptions({
 const route = useRoute()
 const user = computed(() => `user-${route.params.user}`)
 
-const { data: provideData, pending, error } = await useAsyncData(
+const { data: provideData } = await useAsyncData(
     user,
     async () => {
         if (!user.value || user.value === 'user-') {
