@@ -10,16 +10,17 @@
         </SiteCardHeader>
         <CardContent class="space-y-4 overflow-auto">
             <div
-                v-if="languagesData.length"
+                v-if="languages.length"
                 class="flex flex-col gap-4"
             >
                 <span
+                    v-if="topLanguage"
                     :class="cn(
                         'font-mono text-2xl text-transparent',
                         'bg-clip-text bg-linear-to-r',
                         'from-green-500 to-green-900',
                     )"
-                >{{ languagesStar[0].name }}</span>
+                >{{ topLanguage.name }}</span>
                 <div class="flex items-center gap-1 w-full">
                     <div
                         v-for="item in languagesStar"
@@ -75,13 +76,16 @@
 <script lang="ts" setup>
 import { cn } from '~/lib/utils'
 import { useGithubData } from '~/components/github/index'
+import type { IRepoTopsLanguages } from '~/types/github'
 
 defineOptions({
     name: 'GithubTopLanguages',
 })
 
 const { languages } = useGithubData()
-const languagesData = structuredClone(languages)
-const languagesStar = languagesData.splice(0, 3)
-const languagesList = languagesData
+const [, , , ...languagesList] = languages
+const languagesStar = languages.slice(0, 3)
+const topLanguage = computed<IRepoTopsLanguages | null>(() => {
+    return languagesStar[0] ?? null
+})
 </script>
