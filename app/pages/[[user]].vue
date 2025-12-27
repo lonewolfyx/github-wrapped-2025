@@ -7,7 +7,7 @@
                     <div class="flex-1 overflow-hidden">
                         <div class="grid h-full grid-cols-1 md:grid-cols-3 grid-rows-4 gap-4">
                             <div class="grid grid-cols-2 gap-4">
-                                <GithubCommitsTotal />
+                                <GithubContributionsTotal />
                                 <GithubStarsTotal />
                             </div>
                             <GithubAverageCommitsPerWeek />

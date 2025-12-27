@@ -3,7 +3,7 @@ import type { IGithubGraphData } from '~/types/github'
 
 export { default as GithubContainer } from './GithubContainer.vue'
 export { default as GithubAverageCommitsPerWeek } from './GithubAverageCommitsPerWeek.vue'
-export { default as GithubCommitsTotal } from './GithubCommitsTotal.vue'
+export { default as GithubContributionsTotal } from './GithubContributionsTotal.vue'
 export { default as GithubContributionGraphBlocks } from './GithubContributionGraphBlocks.vue'
 export { default as GithubContributionGraphMonths } from './GithubContributionGraphMonths.vue'
 export { default as GithubLongestGap } from './GithubLongestGap.vue'
