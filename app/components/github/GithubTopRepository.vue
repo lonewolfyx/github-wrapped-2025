@@ -9,14 +9,31 @@
             <!-- 今年热门的仓库,按照 star、fork 排序 -->
         </SiteCardHeader>
         <CardContent class="p-2">
-            <!--            今年热门的仓库,按照 star、fork 排序 -->
-            <div class="flex flex-col gap-2">
+            <div
+                v-if="hotRepository.length"
+                class="flex flex-col gap-2"
+            >
                 <GithubTopRepositoryItems
                     v-for="item in repository.repositories.nodes.slice(0, 3)"
                     :key="item.name"
                     :repository="item"
                 />
             </div>
+            <template v-else>
+                <Empty>
+                    <EmptyHeader>
+                        <EmptyMedia variant="icon">
+                            <Icon name="oui:reporter" />
+                        </EmptyMedia>
+                        <EmptyTitle class="text-muted">
+                            No Popular Repositories
+                        </EmptyTitle>
+                        <EmptyDescription>
+                            This account doesn’t have any public repositories with enough activity to be considered popular.
+                        </EmptyDescription>
+                    </EmptyHeader>
+                </Empty>
+            </template>
         </CardContent>
     </SiteCard>
 </template>
@@ -29,4 +46,5 @@ defineOptions({
 })
 
 const { repository } = useGithubData()
+const hotRepository = computed(() => repository.repositories.nodes.slice(0, 3))
 </script>
