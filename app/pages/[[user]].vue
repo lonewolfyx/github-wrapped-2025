@@ -8,7 +8,7 @@
                         <div class="grid h-full grid-cols-1 md:grid-cols-3 grid-rows-4 gap-4">
                             <div class="grid grid-cols-2 gap-4">
                                 <GithubContributionsTotal />
-                                <GithubStarsTotal />
+                                <GithubAveragePerDay />
                             </div>
                             <GithubAverageCommitsPerWeek />
                             <div class="grid grid-cols-2 gap-4">
