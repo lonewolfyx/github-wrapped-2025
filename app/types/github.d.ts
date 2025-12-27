@@ -138,6 +138,7 @@ export interface IIssues {
 
 export interface IIssuesResult {
     issues: IIssuesNode[]
+    total: number
     closed: number
     open: number
 }
@@ -179,6 +180,7 @@ export interface ITotal {
     stars: number
     commits: number
     issues: {
+        createTotal: number
         total: number
         opened: number
         closed: number

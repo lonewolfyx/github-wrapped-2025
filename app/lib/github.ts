@@ -44,7 +44,10 @@ export const getGithubUserData = async (user: string): Promise<IGithubGraphData>
             commits: contributions.contributionsCollection.totalCommitContributions,
             // 创建的 issue 数
             issues: {
-                total: contributions.contributionsCollection.totalIssueContributions,
+                // 今年创建的 issues 数量
+                createTotal: contributions.contributionsCollection.totalIssueContributions,
+                // 今年参与的 issues 数量
+                total: issues.total,
                 opened: issues.open,
                 closed: issues.closed,
             },
