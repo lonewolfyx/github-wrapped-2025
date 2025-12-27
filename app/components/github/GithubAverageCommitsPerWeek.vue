@@ -19,10 +19,10 @@
                     >
                         <VisStackedBar
                             :bar-width="20"
-                            :color="chartConfig.averagePerWeek.color"
+                            :color="chartConfig.totalContributions.color"
                             :rounded-corners="25"
                             :x="(_: IWeeklyContribution, i:number) => i"
-                            :y="(d: IWeeklyContribution) => d.averagePerWeek"
+                            :y="(d: IWeeklyContribution) => d.totalContributions"
                         />
                         <VisAxis
                             :domain-line="false"
@@ -67,7 +67,7 @@ defineOptions({
 const { weeklyAverageContribution } = useGithubData()
 
 const chartConfig = {
-    averagePerWeek: {
+    totalContributions: {
         label: 'Contributions:',
         color: 'var(--chart-2)',
     },
