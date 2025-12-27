@@ -54,12 +54,14 @@ export const getIssuesStatistics = async (user: string): Promise<IIssuesResult> 
         cursor = page.pageInfo.endCursor
     }
 
-    const issueCount = issues.filter(Boolean).filter(i => dayjs(i.createdAt).year() < dayjs().year())
+    const issueCount = issues.filter(Boolean)
+    // .filter(i => dayjs(i.createdAt).year() < dayjs().year())
     const closed = issueCount?.filter(i => i.state === 'CLOSED').length || 0
     const open = issueCount.length - closed
 
     return {
         issues: issueCount,
+        total: issueCount.length,
         open,
         closed,
     }
