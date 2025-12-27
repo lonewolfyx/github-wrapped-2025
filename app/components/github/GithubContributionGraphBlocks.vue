@@ -24,10 +24,10 @@
                                 />
                             </TooltipTrigger>
                             <TooltipContent>
-                                <p>
+                                <span class="font-mono">
                                     {{ getContributionCount(cell.date) }} contributions on
-                                    {{ dayjs(cell.date).format('MMMM DD') }}
-                                </p>
+                                    {{ dayjs(cell.date).format('YYYY.MM.DD') }}
+                                </span>
                             </TooltipContent>
                         </Tooltip>
                     </TooltipProvider>
